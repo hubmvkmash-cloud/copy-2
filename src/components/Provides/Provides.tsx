@@ -29,7 +29,7 @@ export default function Provides() {
             <div className="flex flex-col gap-15 items-center justify-center lg:items-start lg:justify-start pr-[1px] mt-[4px] mr-[-2px] ml-[5px] sm:pr-0 sm:mt-0 sm:mr-0 sm:ml-[90px]">
               <ul className="flex flex-wrap text-boulder-dust text-[20px]/[22px] gap-y-6 gap-x-1.5 mr-[101px] lg:mr-0">
                 <li className="max-w-[456px] tracking-[0.02em]">Флоромат - вендинговий апарат для продажу авторських квіткових композицій.</li>
-                <li className="max-w-[456px] tracking-[0.02em]">Флоромат забезпечує автономну реалізацію квітів без участ�� флористів.</li>
+                <li className="max-w-[456px] tracking-[0.02em]">Флоромат забезпечує автономну реалізацію квітів без участі флористів.</li>
                 <li className="max-w-[456px] tracking-[0.02em] order-3">Ми надаємо ексклюзивну можливість встановлення апарату на вокзалах Укрзалізниці.</li>
               </ul>
 
