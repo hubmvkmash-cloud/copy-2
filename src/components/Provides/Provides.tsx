@@ -44,13 +44,13 @@ export default function Provides() {
                   <span className="flex justify-start lg:justify-center items-center w-16 h-16 rounded-full bg-woodsmoke-dark shrink-0">
                     <img src="/images/icons-png/health.png" alt="Іконка" className="max-w-[34px] lg:max-w-[26px] mx-auto lg:mx-0" />
                   </span>
-                  <div className="sm:pt-0 pt-2 sm:mr-0 mr-[-4px] sm:my-0 my-auto">Швидка окуп��ість інвестицій до двох років</div>
+                  <div className="pt-2 my-auto mr-[-4px] ml-0">Швидка окупність інвестицій до двох років</div>
                 </li>
                 <li className="flex gap-4 items-center h-16 w-[304px] lg:w-[452px]">
                   <span className="flex justify-start lg:justify-center items-center w-16 h-16 rounded-full bg-woodsmoke-dark shrink-0">
                     <img src="/images/icons-png/flowers.png" alt="Іконка" className="max-w-8.5 mx-auto lg:mx-0" />
                   </span>
-                  <div className="lg:mr-0 mr-[-1px] sm:pt-0 pt-5">Автоматизація процесу та дистанційне керування через мобільний додаток</div>
+                  <div className="lg:mr-0 mr-[-1px] sm:pt-0 pt-5">Автоматизація процесу та дистанційн�� керування через мобільний додаток</div>
                 </li>
                 <li className="flex gap-4 items-center h-16 w-[332px] lg:w-[452px]">
                   <span className="flex justify-start lg:justify-center items-center w-16 h-16 rounded-full bg-woodsmoke-dark shrink-0">
