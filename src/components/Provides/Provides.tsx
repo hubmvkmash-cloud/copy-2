@@ -1,90 +1,72 @@
 export default function Provides() {
   return (
     <section id="provides" className="pb-20">
-      <div className="section flex flex-col 1xl:gap-3 1xl:flex-row max-w-[375px] sm:max-w-none px-3 sm:px-0 mx-auto mt-[-5px]">
-        <h2
-          className="font-second font-medium mb-9.5 text-[32px]/[35.2px] 1xl:min-w-[446px] 3xl:min-w-[572px] 4xl:min-w-[700px] 1xl:mb-0 text-center"
-          style={{
-            backgroundImage:
-              'url(https://cdn.builder.io/api/v1/image/assets%2F72ae2a4d99034a3aa7809f652e4e761b%2F5537c778e73b4ba280b542dd39a24aed)',
-            backgroundRepeat: 'no-repeat',
-            backgroundPosition: 'center',
-            backgroundSize: 'cover',
-            color: 'rgba(0, 0, 0, 1)',
-            letterSpacing: '-0.64px',
-            height: '519px',
-            paddingBottom: '11px',
-            margin: '0 10px 40px 200px',
-            paddingLeft: '6px',
-          }}
-        >
-          Як це працює?
-        </h2>
-        <div className="flex flex-col gap-15 1xl:gap-27 1xl:flex-wrap">
-          <ul className="flex flex-wrap text-boulder-dust text-[20px]/[22px] gap-y-6 gap-x-1.5">
-            <li className="tracking-[0.02em] 1xl:tracking-normal 3xl:tracking-[0.07em] lg:max-w-114 1xl:max-w-[440px] 3xl:max-w-[544px] 4xl:max-w-[732px]">
-              Флоромат - вендинговий апарат для продажу авторських квіткових композицій.
-            </li>
-            <li className="tracking-[0.02em] 3xl:tracking-[0.07em] 1xl:tracking-normal lg:max-w-114 1xl:max-w-[440px] 3xl:max-w-[544px] 4xl:max-w-[732px]">
-              Флоромат забезпечує автономну реалізацію квітів без участі флористів.
-            </li>
-            <li className="tracking-[0.02em] 3xl:tracking-[0.07em] 1xl:tracking-normal lg:max-w-114 1xl:max-w-[440px] 3xl:max-w-[544px] 4xl:max-w-[732px] order-3">
-              Ми надаємо ексклюзивну можливість встановлення апарату на вокзалах Укрзалізниці.
-            </li>
-          </ul>
+      <div className="section">
+        <div className="flex flex-col md:flex-row gap-5 md:gap-5">
+          {/* Left column: background title block */}
+          <div className="flex flex-col md:w-1/2">
+            <h2
+              className="font-second font-medium text-center w-[600px] h-[800px] mt-[7px] mb-10 mx-auto"
+              style={{
+                backgroundImage:
+                  'url(https://cdn.builder.io/api/v1/image/assets%2F72ae2a4d99034a3aa7809f652e4e761b%2F5537c778e73b4ba280b542dd39a24aed)',
+                backgroundRepeat: 'no-repeat',
+                backgroundPosition: 'center',
+                backgroundSize: 'cover',
+                color: 'rgba(0, 0, 0, 1)',
+                letterSpacing: '-0.64px',
+                paddingLeft: '6px',
+                paddingBottom: '11px',
+                font: '500 32px/35.2px Unbounded, sans-serif ',
+              }}
+            >
+              Як це працює?
+            </h2>
+          </div>
 
-          <ul className="flex flex-wrap text-mercury-white font-semibold text-[18px]/[28px] gap-y-10.5 gap-x-1.5 mb-[-1px] pb-[31px]">
-            <li className="flex gap-6 lg:gap-4 h-16 items-center w-full lg:w-[452px] 1xl:w-[440px] 3xl:w-[544px] 4xl:w-[732px]">
-              <span className="flex justify-center items-center w-16 h-16 rounded-full bg-woodsmoke-dark shrink-0">
-                <img
-                  src="/images/icons-png/cleaning.png"
-                  alt="Іконка"
-                  className="max-w-6.5 xs:max-w-8.5"
-                />
-              </span>
-              <p>Цілодобові продажі 24 години на добу, 7 днів на тиждень</p>
-            </li>
-            <li className="flex gap-6 lg:gap-4 h-16 items-center w-full lg:w-[452px] 1xl:w-[440px] 3xl:w-[544px] 4xl:w-[732px]">
-              <span className="flex justify-center items-center w-16 h-16 rounded-full bg-woodsmoke-dark shrink-0">
-                <img
-                  src="/images/icons-png/health.png"
-                  alt="Іконка"
-                  className="max-w-[26px]"
-                />
-              </span>
-              <p>Швидка окупність інвестицій до двох років</p>
-            </li>
-            <li className="flex gap-6 lg:gap-4 h-16 items-center w-full lg:w-[452px] 1xl:w-[440px] 3xl:w-[544px] 4xl:w-[732px]">
-              <span className="flex justify-center items-center w-16 h-16 rounded-full bg-woodsmoke-dark shrink-0">
-                <img
-                  src="/images/icons-png/flowers.png"
-                  alt="Іконка"
-                  className="max-w-6.5 xs:max-w-8.5"
-                />
-              </span>
-              <p>Автоматизація процесу та дистанційне керування через мобільний додаток</p>
-            </li>
-            <li className="flex gap-6 lg:gap-4 h-16 items-center w-full lg:w-[452px] 1xl:w-[440px] 3xl:w-[544px] 4xl:w-[732px]">
-              <span className="flex justify-center items-center w-16 h-16 rounded-full bg-woodsmoke-dark shrink-0">
-                <img
-                  src="/images/icons-png/cargo.png"
-                  alt="Іконка"
-                  className="max-w-6.5 xs:max-w-8.5"
-                />
-              </span>
-              <p>Найкраща локація з найбільшим пішим трафіком</p>
-            </li>
-            <li className="flex gap-6 lg:gap-4 h-16 items-center w-full lg:w-[452px] 1xl:w-[440px] 3xl:w-[544px] 4xl:w-[732px]">
-              <span className="flex justify-center items-center w-16 h-16 rounded-full bg-woodsmoke-dark shrink-0">
-                <img
-                  src="/images/icons-png/secure.png"
-                  alt="Іконка"
-                  className="max-w-[26px] sm:max-w-6.5 xs:sm:max-w-8.5"
-                />
-              </span>
-              <p>Безпечна конструкція із системою сигналізації та відоспостереження</p>
-            </li>
-          </ul>
+          {/* Right column: content lists */}
+          <div className="flex flex-col md:w-1/2 justify-start items-center md:items-start -mt-1 md:mt-0">
+            <div className="flex flex-col gap-15">
+              <ul className="flex flex-wrap text-boulder-dust text-[20px]/[22px] gap-y-6 gap-x-1.5">
+                <li className="max-w-[456px] tracking-[0.02em]">Флоромат - вендинговий апарат для продажу авторських квіткових композицій.</li>
+                <li className="max-w-[456px] tracking-[0.02em]">Флоромат забезпечує автономну реалізацію квітів без участі флористів.</li>
+                <li className="max-w-[456px] tracking-[0.02em] order-3">Ми надаємо ексклюзивну можливість встановлення апарату на вокзалах Укрзалізниці.</li>
+              </ul>
+
+              <ul className="flex flex-wrap text-mercury-white font-semibold text-[18px]/[28px] gap-y-10.5 gap-x-1.5 mb-[-1px] pb-[31px]">
+                <li className="flex gap-4 items-center h-16 w-[452px]">
+                  <span className="flex justify-center items-center w-16 h-16 rounded-full bg-woodsmoke-dark shrink-0">
+                    <img src="/images/icons-png/cleaning.png" alt="Іконка" className="max-w-8.5" />
+                  </span>
+                  <div>Цілодобові продажі 24 години на добу, 7 днів на тиждень</div>
+                </li>
+                <li className="flex gap-4 items-center h-16 w-[452px]">
+                  <span className="flex justify-center items-center w-16 h-16 rounded-full bg-woodsmoke-dark shrink-0">
+                    <img src="/images/icons-png/health.png" alt="Іконка" className="max-w-[26px]" />
+                  </span>
+                  <div>Швидка окупність інвестицій до двох років</div>
+                </li>
+                <li className="flex gap-4 items-center h-16 w-[452px]">
+                  <span className="flex justify-center items-center w-16 h-16 rounded-full bg-woodsmoke-dark shrink-0">
+                    <img src="/images/icons-png/flowers.png" alt="Іконка" className="max-w-8.5" />
+                  </span>
+                  <div>Автоматизація процесу та дистанційне керування через мобільний додаток</div>
+                </li>
+                <li className="flex gap-4 items-center h-16 w-[452px]">
+                  <span className="flex justify-center items-center w-16 h-16 rounded-full bg-woodsmoke-dark shrink-0">
+                    <img src="/images/icons-png/cargo.png" alt="Іконка" className="max-w-8.5" />
+                  </span>
+                  <div>Найкраща локація з найбільшим пішим трафіком</div>
+                </li>
+                <li className="flex gap-4 items-center h-16 w-[452px]">
+                  <span className="flex justify-center items-center w-16 h-16 rounded-full bg-woodsmoke-dark shrink-0">
+                    <img src="/images/icons-png/secure.png" alt="Іконка" className="max-w-8.5" />
+                  </span>
+                  <div>Безпечна конструкція із системою сигналізації та відоспостереження</div>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
     </section>
