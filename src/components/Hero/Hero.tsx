@@ -39,8 +39,8 @@ const Hero = () => {
             <SmartButton
               label="Рішення для бізнесу"
               href="#provides"
-              className="lg:inline-flex ml-auto lg:ml-0 4xl:text-[20px]/[1] mt-[3px] pt-[11px] pb-[13px]"
-              labelClassName="pt-[2px] mx-auto lg:mx-0"
+              className="4xl:text-[20px]/[1] mt-[3px] pt-[11px] pb-[13px] mx-auto sm:ml-auto"
+              labelClassName="pt-[2px] mx-auto sm:mx-0"
             />
           </div>
         </div>

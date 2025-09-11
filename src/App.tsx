@@ -33,7 +33,7 @@ function App() {
       {showPolicy ? (
         <PrivacyPolicy />
       ) : (
-        <main>
+        <main className="flex flex-col sm:block">
           <Hero />
           <Provides />
           <Reasons />
