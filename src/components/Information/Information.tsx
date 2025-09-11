@@ -22,8 +22,7 @@ const Information = () => {
             return (
               <li
                 key={index}
-                className="border-t border-tuatara/75 pt-8 flex flex-col lg:flex-row 3xl:gap-63 4xl:gap-90 "
-                style={{ gap: '100px' }}
+                className="border-t border-tuatara/75 pt-8 flex flex-col lg:flex-row gap-2.5 sm:gap-[100px] 3xl:gap-63 4xl:gap-90"
               >
                 <p className="text-[36px]/[31px] text-boulder-dust font-medium">
                   {info.number}
