@@ -17,7 +17,7 @@ const Information = () => {
 
         <div className="relative mt-5 text-right">Середні показники/ місяць</div>
 
-        <ul className="flex flex-col gap-12 sm:gap-20 lg:gap-18">
+        <ul className="flex flex-col gap-[26px]">
           {information.map((info, index) => {
             return (
               <li
@@ -35,9 +35,12 @@ const Information = () => {
                     {info.description}
                   </p>
                 </div>
-                <div className="flex justify-between text-2xl/[87%] 1xl:text-[32px]/[87%] text-boulder-dust font-medium lg:min-w-60 1xl:min-w-105 3xl:min-w-126 4xl:min-w-183 shrink-0">
+                <div className="flex justify-between text-[24px]/[21px] text-boulder-dust font-medium min-w-[240px] shrink-0">
                   <p>{info.price}</p>
-                  <p>{info.duration}</p>
+                  <p className={(() => {
+                    const ml = [23, 22, 26, 26, 28][index] ?? 0;
+                    return `ml-[${ml}px]`;
+                  })()}>{info.duration}</p>
                 </div>
               </li>
             );
