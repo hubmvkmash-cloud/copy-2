@@ -33,7 +33,7 @@ export default function Provides() {
                 <li className="max-w-[456px] tracking-[0.02em] order-3">Ми надаємо ексклюзивну можливість встановлення апарату на вокзалах Укрзалізниці.</li>
               </ul>
 
-              <ul className="flex flex-wrap text-mercury-white font-semibold text-[18px]/[28px] gap-y-10.5 gap-x-1.5 mb-[-1px] pb-[31px] mt-[-1px] mr-[-4px] sm:mt-0 sm:mr-0">
+              <ul className="flex flex-wrap text-mercury-white font-semibold text-[18px]/[28px] gap-y-[30px] lg:gap-y-10.5 gap-x-1.5 mb-[-1px] pb-[31px] mt-[-1px] mr-[-4px] sm:mt-0 sm:mr-0">
                 <li className="flex gap-4 items-center h-16 w-[343px] lg:w-[452px]">
                   <span className="flex justify-start lg:justify-center items-center w-16 h-16 rounded-full bg-woodsmoke-dark shrink-0">
                     <img src="/images/icons-png/cleaning.png" alt="Іконка" className="max-w-8.5 mx-auto lg:mx-0" />
@@ -62,7 +62,7 @@ export default function Provides() {
                   <span className="flex justify-start lg:justify-center items-center w-16 h-16 rounded-full bg-woodsmoke-dark shrink-0">
                     <img src="/images/icons-png/secure.png" alt="Іконка" className="max-w-8.5 mx-auto lg:mx-0" />
                   </span>
-                  <div>Безпечна к��нструкція із системою сигналізації та відоспостереження</div>
+                  <div>Безпечна конструкція із системою сигналізації та відоспостереження</div>
                 </li>
               </ul>
             </div>
