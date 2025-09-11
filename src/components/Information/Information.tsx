@@ -6,7 +6,7 @@ const Information = () => {
       <div className="section flex flex-col max-w-[375px] sm:max-w-none px-3 sm:px-0 mx-auto">
         <div className="mb-9 1xl:mb-20 3xl:mb-17 4xl:mb-15 flex items-center justify-between">
           <h2 className="leading-[110%] font-second font-medium">
-            Метрики та фінансові показники
+            Метрики та фінан��ові показники
           </h2>
           <img
             src="/images/info.png"
@@ -37,10 +37,7 @@ const Information = () => {
                 </div>
                 <div className="flex justify-between text-[24px]/[21px] text-boulder-dust font-medium min-w-[240px] shrink-0">
                   <p>{info.price}</p>
-                  <p className={(() => {
-                    const ml = [23, 22, 26, 26, 28][index] ?? 0;
-                    return `ml-[${ml}px]`;
-                  })()}>{info.duration}</p>
+                  <p className={(['ml-[23px]','ml-[22px]','ml-[26px]','ml-[26px]','ml-[28px]'][index] ?? '')}>{info.duration}</p>
                 </div>
               </li>
             );
