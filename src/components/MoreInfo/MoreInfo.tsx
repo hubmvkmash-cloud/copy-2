@@ -55,7 +55,7 @@ const MoreInfo = () => {
           toast.error('Помилка сервера. Спробуйте пізніше.');
         } else {
           toast.error(
-            'Не вдалося н��діслати запит. Перевірте підключення до мережі або спробуйте пізніше.'
+            'Не вдалося надіслати запит. Перевірте підключення до мережі або спробуйте пізніше.'
           );
         }
       } else {
@@ -154,6 +154,7 @@ const MoreInfo = () => {
               type="submit"
               variant="secondary"
               className="self-center 1xl:self-end p-5 xs:p-5.5 min-w-[280px] lg:min-w-[300px] 1xl:min-w-[280px] text-lg/[100%] tracking-[-0.02em] xs:text-2xl/[100%] font-bold"
+              labelClassName="ml-auto"
             />
           </form>
         </div>
