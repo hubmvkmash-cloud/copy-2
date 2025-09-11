@@ -14,7 +14,7 @@ const FAQ = () => {
             <AskUsButton targetId="more-info" className="hidden lg:flex" />
           </div>
           {/*Right: list */}
-          <ul className="flex flex-col w-full gap-10.5 xs:gap-21 lg:gap-10.5 1xl:gap-14.5 mb-15.5 xs:mb-25 1xl:mb-19 3xl:mb-10 4xl:mb-20  1xl:max-w-[902px] 3xl:max-w-[1156px] 4xl:max-w-[1486px]">
+          <ul className="flex flex-col w-full gap-[4px] xs:gap-21 lg:gap-10.5 1xl:gap-14.5 mb-15.5 xs:mb-25 1xl:mb-19 3xl:mb-10 4xl:mb-20  1xl:max-w-[902px] 3xl:max-w-[1156px] 4xl:max-w-[1486px]">
             {faqItems.map(({ title, text }, i) => (
               <li
                 key={i}
