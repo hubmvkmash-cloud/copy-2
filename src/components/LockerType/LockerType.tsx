@@ -8,18 +8,14 @@ const LockerType = () => {
           <div className="lg:grid lg:grid-cols-[1fr_460px] 1xl:grid-cols-[1fr_676px] 3xl:grid-cols-[1fr_760px] 4xl:grid-cols-[864px_844px] lg:gap-x-5 1xl:gap-x-10 lg:items-start 3xl:gap-x-25 4xl:justify-between">
             <div className="mb-18 1xl:mb-35 1xl:col-start-1 1xl:row-start-1">
               <h2 className="mb-6 3xl:mb-17 4xl:mb-15 font-second font-medium leading-[110%]">
-                Заголовок блоку
+                Технічні характеристики
               </h2>
-              <p className="text-[20px]/[110%] text-boulder-dust 4xl:max-w-110">
-                ХАБ — це багатофункціональна платформа, яка охоплює щоденні
-                потреби клієнтів в одному місці
-              </p>
             </div>
 
             <div className="xs:max-w-[520px] xs:aspect-[520/352] mb-18 lg:max-w-[460px] lg:col-start-2 lg:row-span-2 1xl:mb-0 1xl:max-w-[674px] 3xl:max-w-[760px] 3xl:aspect-[760/552] 4xl:max-w-[844px]">
               <img
                 alt="picture"
-                src="/images/modules-desktop/teplo-1x.webp"
+                src="https://cdn.builder.io/api/v1/image/assets%2F72ae2a4d99034a3aa7809f652e4e761b%2F31d77a0def9d4767b00165b0ea32f626"
                 className="w-full h-full object-cover"
                 loading="lazy"
               />
@@ -50,13 +46,21 @@ const LockerType = () => {
             </ul>
           </div>
 
-          <div className="xs:max-w-[520px] xs:aspect-[520/352] lg:max-w-[860px] 3xl:max-w-[1160px] 4xl:max-w-[1488px] ">
-            <img
-              alt="picture"
-              src="/images/modules-mobile/avtomat-1x.webp"
-              className="w-full h-full object-cover"
-              loading="lazy"
-            />
+          <div className="w-full">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
+              <img
+                alt="picture"
+                src="https://cdn.builder.io/api/v1/image/assets%2F72ae2a4d99034a3aa7809f652e4e761b%2F6cdf8a503f51429a8bd09812b01d6fb7"
+                className="w-full h-full object-cover"
+                loading="lazy"
+              />
+              <img
+                alt="picture"
+                src="https://cdn.builder.io/api/v1/image/assets%2F72ae2a4d99034a3aa7809f652e4e761b%2F426eb1a982404a5f80dae921bb7ac0e0"
+                className="w-full h-full object-cover"
+                loading="lazy"
+              />
+            </div>
           </div>
         </div>
       </div>
