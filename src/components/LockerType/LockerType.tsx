@@ -2,8 +2,8 @@ import { lockers } from '../../data/lockers';
 
 const LockerType = () => {
   return (
-    <section id="locker" className="pb-40 1xl:pb-55 3xl:pb-60 4xl:pb-70">
-      <div className="section flex flex-col 1xl:flex-row 1xl:flex-wrap gap-18 1xl:gap-35">
+    <section id="locker" className="pb-[70px] sm:pb-40 1xl:pb-55 3xl:pb-60 4xl:pb-70">
+      <div className="section flex flex-col 1xl:flex-row 1xl:flex-wrap gap-18 1xl:gap-35 max-w-[375px] sm:max-w-none px-3 sm:px-0 mx-auto">
         <div className="3xl:pl-69 4xl:pl-94 flex flex-col gap-18 3xl:gap-25">
           <div className="lg:grid lg:grid-cols-[1fr_460px] 1xl:grid-cols-[1fr_676px] 3xl:grid-cols-[1fr_760px] 4xl:grid-cols-[864px_844px] lg:gap-x-5 1xl:gap-x-10 lg:items-start 3xl:gap-x-25 4xl:justify-between">
             <div className="mb-18 1xl:mb-35 1xl:col-start-1 1xl:row-start-1">
@@ -15,13 +15,13 @@ const LockerType = () => {
             <div className="xs:max-w-[520px] xs:aspect-[520/352] mb-18 lg:max-w-[460px] lg:col-start-2 lg:row-span-2 1xl:mb-0 1xl:max-w-[674px] 3xl:max-w-[760px] 3xl:aspect-[760/552] 4xl:max-w-[844px]">
               <img
                 alt="picture"
-                src="https://cdn.builder.io/api/v1/image/assets%2F72ae2a4d99034a3aa7809f652e4e761b%2F31d77a0def9d4767b00165b0ea32f626"
+                src="https://cdn.builder.io/api/v1/image/assets%2F72ae2a4d99034a3aa7809f652e4e761b%2F5e0a6aaf1b4f456c88f462786d1be943"
                 className="w-full h-full object-cover mt-[105px]"
                 loading="lazy"
               />
             </div>
 
-            <ul className="flex flex-col gap-18 lg:gap-10 1xl:gap-15 lg:col-start-1 lg:row-start-2">
+            <ul className="flex flex-col gap-8 sm:gap-18 lg:gap-10 1xl:gap-15 lg:col-start-1 lg:row-start-2">
               {lockers.map((locker, index) => {
                 return (
                   <li key={index} className="flex items-center gap-6">
