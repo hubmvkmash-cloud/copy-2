@@ -1,7 +1,7 @@
 export default function Provides() {
   return (
     <section id="provides" className="pb-20">
-      <div className="section flex flex-col 1xl:gap-3 1xl:flex-row max-w-[375px] sm:max-w-none px-3 sm:px-0 mx-auto">
+      <div className="section flex flex-col 1xl:gap-3 1xl:flex-row max-w-[375px] sm:max-w-none px-3 sm:px-0 mx-auto mt-[-5px]">
         <h2
           className="font-second font-medium mb-9.5 text-[32px]/[35.2px] 1xl:min-w-[446px] 3xl:min-w-[572px] 4xl:min-w-[700px] 1xl:mb-0 text-center"
           style={{
@@ -12,9 +12,9 @@ export default function Provides() {
             backgroundSize: 'cover',
             color: 'rgba(0, 0, 0, 1)',
             letterSpacing: '-0.64px',
-            height: '943px',
+            height: '519px',
             paddingBottom: '11px',
-            margin: '0 200px 40px',
+            margin: '0 10px 40px 200px',
           }}
         >
           Як це працює?
@@ -51,7 +51,7 @@ export default function Provides() {
                   className="max-w-6.5 xs:max-w-8.5"
                 />
               </span>
-              <p>Швидка окуп��ість інвестицій до двох років</p>
+              <p>Швидка окупність інвестиц��й до двох років</p>
             </li>
             <li className="flex gap-6 lg:gap-4 h-16 items-center w-full lg:w-[452px] 1xl:w-[440px] 3xl:w-[544px] 4xl:w-[732px]">
               <span className="flex justify-center items-center w-16 h-16 rounded-full bg-woodsmoke-dark shrink-0">

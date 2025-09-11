@@ -6,7 +6,7 @@ const Information = () => {
       <div className="section flex flex-col max-w-[375px] sm:max-w-none px-3 sm:px-0 mx-auto">
         <div className="mb-9 1xl:mb-20 3xl:mb-17 4xl:mb-15 flex items-center justify-between">
           <h2 className="leading-[110%] font-second font-medium">
-            Метрики та фінан��ові показники
+            Метрики та фінанcові показники
           </h2>
           <img
             src="/images/info.png"
