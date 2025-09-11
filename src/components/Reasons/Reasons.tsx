@@ -1,7 +1,7 @@
 const Reasons = () => {
   return (
     <section id="reasons" className="pb-40 1xl:pb-55 3xl:pb-60 4xl:pb-70">
-      <div className="section flex flex-col 1xl:flex-row-reverse gap-[108px] 1xl:gap-4 3xl:gap-[122px] 4xl:gap-[108px] 4xl:justify-end">
+      <div className="section flex flex-col 1xl:flex-row-reverse gap-[14px] sm:gap-[108px] 1xl:gap-4 3xl:gap-[122px] 4xl:gap-[108px] 4xl:justify-end">
         <div className="w-full shrink-1 4xl:pt-13 4xl:max-w-[1370px]">
           <h2 className="mb-14.5 1xl:mb-20 3xl:mb-17 4xl:mb-15 font-second font-medium text-center leading-[110%]">
             Переваги
@@ -16,7 +16,7 @@ const Reasons = () => {
                 <span className="text-tangerine capitalize">ЕКСКЛЮЗИВНЕ</span>
                 <br /> РОЗМІЩЕННЯ НА ВОКЗАЛАХ
               </p>
-              <p className="text-xl/[110%] text-boulder-dust 3xl:max-w-[520px]">
+              <p className="text-xl/[110%] text-boulder-dust 3xl:max-w-[520px] sm:mb-0 mb-[-3px]">
                 Ми надаємо унікальну можливість встановлення Флоромату в найкращому місці - на території вокзалу Укрзалізниці із найбільшим потоком потенційних покупців.
               </p>
             </li>
@@ -43,7 +43,7 @@ const Reasons = () => {
                 &nbsp;БІЗНЕСУ
               </p>
               <p className="text-xl/[110%] text-boulder-dust 3xl:max-w-[520px]">
-                Наша система відкриває для інвестора нові горизонти: завдяки модульній архітектурі, Ви можете легко розширити бізнес, інтегрувати Тортомат, вендинговий апарат із сувенірами та інші інноваційні рішення, збільшуючи прибуток та охват аудиторії без додаткових витрат.
+                Наша система відкриває для інвестора нові горизонти: завдяки модульній архітектурі, Ви можете легко розширити бізнес, інтегрувати Тортом��т, вендинговий апарат із сувенірами та інші інноваційні рішення, збільшуючи прибуток та охват аудиторії без додаткових витрат.
               </p>
             </li>
           </ul>
@@ -53,7 +53,7 @@ const Reasons = () => {
           <img
             alt="Smart Locker HUB"
             src="https://cdn.builder.io/api/v1/image/assets%2F72ae2a4d99034a3aa7809f652e4e761b%2Fcadbc2bcf8f04b00a4667308b75c427b"
-            className="w-full object-cover"
+            className="w-full object-cover mt-[-5px] sm:mt-0"
             loading="lazy"
           />
         </div>
