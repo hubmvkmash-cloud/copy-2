@@ -6,7 +6,7 @@ export default function Provides() {
           {/* Left column: background title block */}
           <div className="flex flex-col md:w-1/2">
             <h2
-              className="font-second font-medium text-center w-[600px] h-[800px] mt-[7px] mb-10 mx-auto"
+              className="font-second font-medium text-center self-stretch w-auto h-auto min-h-[900px] mt-[7px] mb-[40px]"
               style={{
                 backgroundImage:
                   'url(https://cdn.builder.io/api/v1/image/assets%2F72ae2a4d99034a3aa7809f652e4e761b%2F5537c778e73b4ba280b542dd39a24aed)',
@@ -29,7 +29,7 @@ export default function Provides() {
             <div className="flex flex-col gap-15">
               <ul className="flex flex-wrap text-boulder-dust text-[20px]/[22px] gap-y-6 gap-x-1.5">
                 <li className="max-w-[456px] tracking-[0.02em]">Флоромат - вендинговий апарат для продажу авторських квіткових композицій.</li>
-                <li className="max-w-[456px] tracking-[0.02em]">Флоромат забезпечує автономну реалізацію квітів без участі флористів.</li>
+                <li className="max-w-[456px] tracking-[0.02em]">Флоромат за��езпечує автономну реалізацію квітів без участі флористів.</li>
                 <li className="max-w-[456px] tracking-[0.02em] order-3">Ми надаємо ексклюзивну можливість встановлення апарату на вокзалах Укрзалізниці.</li>
               </ul>
 
