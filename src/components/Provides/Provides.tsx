@@ -2,13 +2,23 @@ export default function Provides() {
   return (
     <section id="provides" className="pb-40 1xl:pb-55 3xl:pb-60 4xl:pb-70">
       <div className="section flex flex-col 1xl:gap-3 1xl:flex-row">
-        <h2 className="font-second text-mercury-white tracking-[-0.02em] font-medium mb-9.5 leading-[110%] 1xl:min-w-[446px] 3xl:min-w-[572px] 4xl:min-w-[700px] 1xl:mb-0">
+        <h2
+          className="font-second tracking-[-0.02em] font-medium mb-9.5 leading-[110%] 1xl:min-w-[446px] 3xl:min-w-[572px] 4xl:min-w-[700px] 1xl:mb-0 text-center"
+          style={{
+            backgroundImage:
+              'url(https://cdn.builder.io/api/v1/image/assets%2F72ae2a4d99034a3aa7809f652e4e761b%2F5537c778e73b4ba280b542dd39a24aed)',
+            backgroundRepeat: 'no-repeat',
+            backgroundPosition: 'center',
+            backgroundSize: 'cover',
+            color: 'rgba(0, 0, 0, 1)',
+          }}
+        >
           Як це працює?
         </h2>
         <div className="flex flex-col gap-15 1xl:gap-27 1xl:flex-wrap">
           <ul className="flex flex-col gap-y-6 xs:text-xl/[110%] lg:gap-x-1.5 lg:gap-y-13.5 lg:flex-row lg:flex-wrap text-boulder-dust 1xl:gap-x-3 3xl:gap-x-6">
             <li className="tracking-[0.02em] 1xl:tracking-normal 3xl:tracking-[0.07em] lg:max-w-114 1xl:max-w-[440px] 3xl:max-w-[544px] 4xl:max-w-[732px]">
-              Флоромат - вендинговий апарат для ��родажу авторський квіткових композицій.
+              Флоромат - вендинговий апарат для продажу авторських квіткових композицій.
             </li>
             <li className="tracking-[0.02em] 3xl:tracking-[0.07em] 1xl:tracking-normal lg:max-w-114 1xl:max-w-[440px] 3xl:max-w-[544px] 4xl:max-w-[732px]">
               Флоромат забезпечує автономну реалізацію квітів без участі флористів.
@@ -67,7 +77,7 @@ export default function Provides() {
                   className="max-w-6.5 xs:max-w-8.5"
                 />
               </span>
-              <p>Безпечна конструкція із системою сигналі��ації та відоспостереження</p>
+              <p>Безпечна конструкція із системою сигналізації та відоспостереження</p>
             </li>
           </ul>
         </div>
