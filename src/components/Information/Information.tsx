@@ -2,8 +2,8 @@ import { information } from '../../data/information';
 
 const Information = () => {
   return (
-    <section id="information" className="pb-40 1xl:pb-55 3xl:pb-60 4xl:pb-70">
-      <div className="section flex flex-col">
+    <section id="information" className="pb-[99px] sm:pb-40 1xl:pb-55 3xl:pb-60 4xl:pb-70">
+      <div className="section flex flex-col max-w-[375px] sm:max-w-none px-3 sm:px-0 mx-auto">
         <div className="mb-9 1xl:mb-20 3xl:mb-17 4xl:mb-15 flex items-center justify-between">
           <h2 className="leading-[110%] font-second font-medium">
             Метрики та фінансові показники
@@ -17,7 +17,7 @@ const Information = () => {
 
         <div className="relative mt-5 text-right">Середні показники/ місяць</div>
 
-        <ul className="flex flex-col gap-20 lg:gap-18">
+        <ul className="flex flex-col gap-12 sm:gap-20 lg:gap-18">
           {information.map((info, index) => {
             return (
               <li
