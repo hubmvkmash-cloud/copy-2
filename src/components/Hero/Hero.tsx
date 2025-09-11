@@ -2,7 +2,7 @@ import SmartButton from '../ui/Button/SmartButton';
 
 const Hero = () => {
   return (
-    <section className="w-full relative lg:-mt-23 pb-40 1xl:pb-55 3xl:pb-60 4xl:pb-70">
+    <section className="w-full relative lg:-mt-23 pb-6 sm:pb-40 1xl:pb-55 3xl:pb-60 4xl:pb-70">
       <div className="flex justify-between gap-5.5 flex-col items-start 1xl:items-center 1xl:justify-center-safe max-h-full h-full">
         <div className="relative -mt-17 1xl:-mt-10.5 3xl:-mt-18 4xl:-mt-17 w-full h-screen overflow-hidden bg-[linear-gradient(to_top,_#080808_0%,_#080808_5%,_rgba(8,8,8,0.5)_100%)]">
           <video
@@ -26,7 +26,7 @@ const Hero = () => {
             <div className="lg:flex flex-col items-center lg:mb-12 4xl:mb-8.5">
               <h1 className="mt-25 1xl:mt-0 font-second text-[34px]/[1] mb-5.5 1xl:mb-3.5  1xl:text-[64px]/[1] 3xl:text-[82px]/[1] 4xl:text-[94px]/[1] font-medium text-gallery-white">
                 <span className="text-tangerine block text-center">Збільши прибуток</span>
-                <span className="block self-center font-medium">свого квіткового бізнесу</span>
+                <span className="block self-center font-medium text-center sm:text-inherit">свого квіткового бізнесу</span>
               </h1>
               <p className="text-[18px]/[22px] font-normal text-alto-white max-w-[500px] text-center">
                 <span className="xs:text-[20px]">У тебе є квітковий магазин або мрієш почати?</span>
