@@ -33,7 +33,7 @@ export default function Provides() {
                 <li className="max-w-[456px] tracking-[0.02em] order-3">Ми надаємо ексклюзивну можливість встановлення апарату на вокзалах Укрзалізниці.</li>
               </ul>
 
-              <ul className="flex flex-wrap text-mercury-white font-semibold text-[18px]/[28px] gap-y-[30px] lg:gap-y-10.5 gap-x-1.5 mb-[-1px] pb-[31px] mt-[-1px] mr-[-4px] ml-[-1px] sm:mt-0 sm:mr-0 sm:ml-0">
+              <ul className="flex flex-wrap text-mercury-white font-semibold text-[18px]/[28px] gap-y-[48px] sm:gap-y-[30px] lg:gap-y-10.5 gap-x-1.5 mb-[-2px] sm:mb-[-1px] pb-[31px] mt-[-1px] mr-[-4px] ml-[-1px] sm:mt-0 sm:mr-0 sm:ml-0">
                 <li className="flex gap-4 items-center h-16 w-[343px] lg:w-[452px]">
                   <span className="flex justify-start lg:justify-center items-center w-16 h-16 rounded-full bg-woodsmoke-dark shrink-0">
                     <img src="/images/icons-png/cleaning.png" alt="Іконка" className="max-w-8.5 mx-auto lg:mx-0" />
@@ -44,25 +44,25 @@ export default function Provides() {
                   <span className="flex justify-start lg:justify-center items-center w-16 h-16 rounded-full bg-woodsmoke-dark shrink-0">
                     <img src="/images/icons-png/health.png" alt="Іконка" className="max-w-[34px] lg:max-w-[26px] mx-auto lg:mx-0" />
                   </span>
-                  <div className="sm:my-0 my-auto">Швидка окупність інвестицій до двох років</div>
+                  <div className="sm:pt-0 pt-2 sm:mr-0 mr-[-4px] sm:my-0 my-auto">Швидка окуп��ість інвестицій до двох років</div>
                 </li>
                 <li className="flex gap-4 items-center h-16 w-[304px] lg:w-[452px]">
                   <span className="flex justify-start lg:justify-center items-center w-16 h-16 rounded-full bg-woodsmoke-dark shrink-0">
                     <img src="/images/icons-png/flowers.png" alt="Іконка" className="max-w-8.5 mx-auto lg:mx-0" />
                   </span>
-                  <div className="lg:mr-0 mr-[-1px]">Автоматизація процесу та дистанційне керування через мобільний додаток</div>
+                  <div className="lg:mr-0 mr-[-1px] sm:pt-0 pt-5">Автоматизація процесу та дистанційне керування через мобільний додаток</div>
                 </li>
                 <li className="flex gap-4 items-center h-16 w-[332px] lg:w-[452px]">
                   <span className="flex justify-start lg:justify-center items-center w-16 h-16 rounded-full bg-woodsmoke-dark shrink-0">
                     <img src="/images/icons-png/cargo.png" alt="Іконка" className="max-w-8.5 mx-auto lg:mx-0" />
                   </span>
-                  <div className="w-full sm:w-auto flex-grow-0 sm:flex-grow my-auto sm:my-0">Найкраща локація з найбільшим пішим трафіком</div>
+                  <div className="w-full sm:w-auto flex-grow-0 sm:flex-grow my-auto sm:my-0 sm:pt-0 pt-[11px]">Найкраща локація з найбільшим пішим трафіком</div>
                 </li>
                 <li className="flex gap-4 items-center h-16 w-[342px] lg:w-[452px]">
                   <span className="flex justify-start lg:justify-center items-center w-16 h-16 rounded-full bg-woodsmoke-dark shrink-0">
                     <img src="/images/icons-png/secure.png" alt="Іконка" className="max-w-8.5 mx-auto lg:mx-0" />
                   </span>
-                  <div>Безпечна конструкція із системою сигналізації та відоспостереження</div>
+                  <div className="sm:mt-0 mt-[1px] sm:pt-0 pt-[22px]">Безпечна конструкція із системою сигналізації та відоспостереження</div>
                 </li>
               </ul>
             </div>
