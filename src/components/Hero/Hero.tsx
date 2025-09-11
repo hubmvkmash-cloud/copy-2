@@ -25,10 +25,10 @@ const Hero = () => {
           <div className="section flex flex-col justify-around lg:justify-center lg:items-center h-full">
             <div className="lg:flex flex-col items-center lg:mb-12 4xl:mb-8.5">
               <h1 className="mt-25 1xl:mt-0 font-second text-[34px]/[1] mb-5.5 1xl:mb-3.5  1xl:text-[64px]/[1] 3xl:text-[82px]/[1] 4xl:text-[94px]/[1] font-medium text-gallery-white">
-                <span className="text-tangerine block">Збільши прибуток</span>
+                <span className="text-tangerine block text-center">Збільши прибуток</span>
                 <span className="block self-center font-medium">свого квіткового бізнесу</span>
               </h1>
-              <p className="text-base/[137%] xs:text-[18px]/[122%] 4xl:text-[22px] font-normal text-alto-white max-w-69 lg:max-w-125 text-left lg:text-center">
+              <p className="text-[18px]/[22px] font-normal text-alto-white max-w-[500px] text-center">
                 <span className="xs:text-[20px]">У тебе є квітковий магазин або мрієш почати?</span>
                 <br />
                 <br />
