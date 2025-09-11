@@ -38,12 +38,9 @@ const Hero = () => {
 
             <SmartButton
               label="Рішення для бізнесу"
-              icon="/images/svg/icons.svg#icon-arrow-up-right"
-              iconClassName="w-4.5 h-4.5 ml-16"
-              iconStroke="currentColor"
-              iconPosition="right"
               href="#provides"
-              className="lg:inline-flex ml-auto lg:ml-0 4xl:text-[20px]/[1] mb-[-3px] sm:mb-0 pt-[15px] sm:pt-0"
+              className="lg:inline-flex ml-auto lg:ml-0 4xl:text-[20px]/[1] mt-[3px] pt-[11px] pb-[13px]"
+              labelClassName="pt-[2px] mx-auto lg:mx-0"
             />
           </div>
         </div>
