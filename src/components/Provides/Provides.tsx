@@ -15,6 +15,7 @@ export default function Provides() {
             height: '519px',
             paddingBottom: '11px',
             margin: '0 10px 40px 200px',
+            paddingLeft: '6px',
           }}
         >
           Як це працює?
@@ -48,10 +49,10 @@ export default function Provides() {
                 <img
                   src="/images/icons-png/health.png"
                   alt="Іконка"
-                  className="max-w-6.5 xs:max-w-8.5"
+                  className="max-w-[26px]"
                 />
               </span>
-              <p>Швидка окупність інвестиц��й до двох років</p>
+              <p>Швидка окупність інвестицій до двох років</p>
             </li>
             <li className="flex gap-6 lg:gap-4 h-16 items-center w-full lg:w-[452px] 1xl:w-[440px] 3xl:w-[544px] 4xl:w-[732px]">
               <span className="flex justify-center items-center w-16 h-16 rounded-full bg-woodsmoke-dark shrink-0">
