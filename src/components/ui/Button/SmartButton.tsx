@@ -11,12 +11,13 @@ export type SmartButtonProps = {
   iconClassName?: string; // Tailwind класи для svg
   // Стилі та функціональність
   className?: string;
+  labelClassName?: string;
   onClick?: (
     event: React.MouseEvent<HTMLButtonElement | HTMLAnchorElement>
   ) => void; // Змінено тип події
   disabled?: boolean;
   loading?: boolean;
-  iconGap?: number; // Це не використовується в коді, можна видалити або додати стилі
+  iconGap?: number; // Це не використовується в коді, можна видалити або до��ати стилі
   href?: string; // Додано для підтримки посилань
   variant?: 'primary' | 'secondary' | 'danger';
 };
@@ -30,6 +31,7 @@ export default function SmartButton({
   iconStroke,
   iconClassName = '',
   className = '',
+  labelClassName = '',
   onClick,
   disabled = false,
   loading = false,
@@ -77,7 +79,7 @@ export default function SmartButton({
     ) : (
       <>
         {icon && iconPosition === 'left' && <Icon />}
-        <span className="shrink-0">{label}</span>
+        <span className={twMerge('shrink-0', labelClassName)}>{label}</span>
         {icon && iconPosition === 'right' && <Icon />}
       </>
     );
