@@ -15,14 +15,17 @@ const Information = () => {
           />
         </div>
 
+        <div className="relative mt-5 text-right">Середні показники/ місяць</div>
+
         <ul className="flex flex-col gap-20 lg:gap-18">
           {information.map((info, index) => {
             return (
               <li
                 key={index}
-                className="border-t border-tuatara/75 pt-8 flex flex-col gap-10 1xl:gap-25 lg:flex-row 3xl:gap-63 4xl:gap-90 "
+                className="border-t border-tuatara/75 pt-8 flex flex-col lg:flex-row 3xl:gap-63 4xl:gap-90 "
+                style={{ gap: '100px' }}
               >
-                <p className="text-3xl/[87%] xs:text-4xl/[87%] text-boulder-dust font-medium">
+                <p className="text-[36px]/[31px] text-boulder-dust font-medium">
                   {info.number}
                 </p>
                 <div className="flex flex-col gap-4 lg:w-[604px] 1xl:w-[680px] 3xl:w-[710px] 4xl:w-[768px]">
