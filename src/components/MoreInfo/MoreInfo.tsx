@@ -74,7 +74,7 @@ const MoreInfo = () => {
               Потрібно більше інформації?
             </h2>
             <p className="text-base/[112%] w-[277px] xs:w-[426px] lg:w-[552px] 1xl:w-[439px] 3xl:w-[477px] xs:text-lg/[133%] lg:text-xl/[120%] 1xl:text-xl/[120%] text-boulder-dust">
-              Отримайте детальну презентацію про компанію та 40+ реалізованих
+              Отримайте дет��льну презентацію про компанію та 40+ реалізованих
               проєктів
             </p>
           </div>
@@ -154,7 +154,7 @@ const MoreInfo = () => {
               type="submit"
               variant="secondary"
               className="self-center 1xl:self-end p-5 xs:p-5.5 min-w-[280px] lg:min-w-[300px] 1xl:min-w-[280px] text-lg/[100%] tracking-[-0.02em] xs:text-2xl/[100%] font-bold"
-              labelClassName="ml-auto"
+              labelClassName="ml-auto mr-[52px]"
             />
           </form>
         </div>

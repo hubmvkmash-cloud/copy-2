@@ -51,7 +51,7 @@ const Reasons = () => {
           <img
             alt="Smart Locker HUB"
             src="https://cdn.builder.io/api/v1/image/assets%2F72ae2a4d99034a3aa7809f652e4e761b%2Fcadbc2bcf8f04b00a4667308b75c427b"
-            className="w-full object-cover mt-[-5px] sm:mt-0 mr-[-4px]"
+            className="w-full object-cover mt-[55px] mr-[-4px]"
             loading="lazy"
           />
         </div>
