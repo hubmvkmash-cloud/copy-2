@@ -36,7 +36,7 @@ export default function Provides() {
               <ul className="flex flex-col items-start lg:flex-row lg:flex-wrap text-mercury-white font-semibold text-[18px]/[28px] gap-y-[48px] sm:gap-y-[30px] lg:gap-y-10.5 gap-x-1.5 pb-[31px] mt-0 mr-0 mb-[-1px] ml-[-3px]">
                 <li className="flex gap-4 items-center h-16 w-[452px] lg:w-[452px]">
                   <span className="flex justify-start lg:justify-center items-center w-16 h-16 rounded-full bg-woodsmoke-dark shrink-0">
-                    <img src="/images/icons-png/cleaning.png" alt="Іконка" className="max-w-8.5 mx-auto lg:mx-0" />
+                    <img src="/images/icons-png/cleaning.png" alt="Іконка" className="max-w-[34px] mx-auto lg:mx-0" />
                   </span>
                   <div className="sm:m-0 mb-[-2px] mr-auto ml-0">Цілодобові продажі 24 години на добу, 7 днів на тиждень</div>
                 </li>
@@ -48,19 +48,19 @@ export default function Provides() {
                 </li>
                 <li className="flex gap-4 items-center h-16 w-[452px] lg:w-[452px] mb-[12px]">
                   <span className="flex justify-start lg:justify-center items-center w-16 h-16 rounded-full bg-woodsmoke-dark shrink-0">
-                    <img src="/images/icons-png/flowers.png" alt="Іконка" className="max-w-8.5 mx-auto lg:mx-0" />
+                    <img src="/images/icons-png/flowers.png" alt="Іконка" className="max-w-[34px] mx-auto lg:mx-0" />
                   </span>
                   <div className="lg:mr-0 mr-[-1px] sm:pt-0 pt-5">Автоматизація процесу та дистанційне керування через мобільний додаток</div>
                 </li>
                 <li className="flex gap-4 items-center h-16 w-[452px] lg:w-[452px] mt-[6px] mb-[20px]">
                   <span className="flex justify-start lg:justify-center items-center w-16 h-16 rounded-full bg-woodsmoke-dark shrink-0">
-                    <img src="/images/icons-png/cargo.png" alt="Іконка" className="max-w-8.5 mx-auto lg:mx-0" />
+                    <img src="/images/icons-png/cargo.png" alt="Іконка" className="max-w-[34px] mx-auto lg:mx-0" />
                   </span>
                   <div className="w-full sm:w-auto flex-grow-0 sm:flex-grow my-auto sm:my-0 sm:pt-0 pt-[11px]">Найкраща локація з найбільшим пішим ��рафіком</div>
                 </li>
                 <li className="flex gap-4 items-center h-16 w-[452px] lg:w-[452px]">
                   <span className="flex justify-start lg:justify-center items-center w-16 h-16 rounded-full bg-woodsmoke-dark shrink-0">
-                    <img src="/images/icons-png/secure.png" alt="Іконка" className="max-w-8.5 mx-auto lg:mx-0" />
+                    <img src="/images/icons-png/secure.png" alt="Іконка" className="max-w-[34px] mx-auto lg:mx-0" />
                   </span>
                   <div className="sm:mt-0 mt-[1px] sm:pt-0 pt-[22px]">Безпечна конструкція із системою сигналізації та відоспостереження</div>
                 </li>
