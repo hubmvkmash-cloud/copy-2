@@ -38,21 +38,21 @@ export default function Provides() {
                   <span className="flex justify-start lg:justify-center items-center w-16 h-16 rounded-full bg-woodsmoke-dark shrink-0">
                     <img src="/images/icons-png/cleaning.png" alt="Іконка" className="max-w-8.5 mx-auto lg:mx-0" />
                   </span>
-                  <div className="sm:m-0 my-auto mr-auto ml-0">Цілодобові продажі 24 години на добу, 7 днів на тиждень</div>
+                  <div className="sm:m-0 mb-[-2px] mr-auto ml-0">Цілодобові продажі 24 години на добу, 7 днів на тиждень</div>
                 </li>
-                <li className="flex gap-4 items-center h-16 w-[300px] lg:w-[452px]">
+                <li className="flex gap-4 items-center h-16 w-[340px] lg:w-[452px] mt-[14px] mb-[12px]">
                   <span className="flex justify-start lg:justify-center items-center w-16 h-16 rounded-full bg-woodsmoke-dark shrink-0">
                     <img src="/images/icons-png/health.png" alt="Іконка" className="max-w-[34px] lg:max-w-[26px] mx-auto lg:mx-0" />
                   </span>
-                  <div className="pt-2 my-auto mr-[-4px] ml-0">Швидка окупність інвестиц��й до двох років</div>
+                  <div className="pt-2 my-auto mr-[-4px] ml-0">Швидка окупність інвестицій до двох років</div>
                 </li>
-                <li className="flex gap-4 items-center h-16 w-[304px] lg:w-[452px]">
+                <li className="flex gap-4 items-center h-[57px] lg:h-16 w-[340px] lg:w-[452px] mb-[12px]">
                   <span className="flex justify-start lg:justify-center items-center w-16 h-16 rounded-full bg-woodsmoke-dark shrink-0">
                     <img src="/images/icons-png/flowers.png" alt="Іконка" className="max-w-8.5 mx-auto lg:mx-0" />
                   </span>
                   <div className="lg:mr-0 mr-[-1px] sm:pt-0 pt-5">Автоматизація процесу та дистанційне керування через мобільний додаток</div>
                 </li>
-                <li className="flex gap-4 items-center h-16 w-[332px] lg:w-[452px]">
+                <li className="flex gap-4 items-center h-16 w-[342px] lg:w-[452px] mt-[6px] mb-[20px]">
                   <span className="flex justify-start lg:justify-center items-center w-16 h-16 rounded-full bg-woodsmoke-dark shrink-0">
                     <img src="/images/icons-png/cargo.png" alt="Іконка" className="max-w-8.5 mx-auto lg:mx-0" />
                   </span>
