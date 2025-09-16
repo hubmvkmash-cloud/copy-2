@@ -17,7 +17,7 @@ export type SmartButtonProps = {
   ) => void; // Змінено тип події
   disabled?: boolean;
   loading?: boolean;
-  iconGap?: number; // Це не використовується в коді, можна видалити або до��ати стилі
+  iconGap?: number; // Це не використовується в коді, можна видалити або додати стилі
   href?: string; // Додано для підтримки посилань
   variant?: 'primary' | 'secondary' | 'danger';
 };
