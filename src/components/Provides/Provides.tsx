@@ -46,7 +46,7 @@ export default function Provides() {
                   </span>
                   <div className="pt-2 my-auto mr-[-4px] ml-0">Швидка окупність інвестицій до двох років</div>
                 </li>
-                <li className="flex gap-4 items-center h-[57px] lg:h-16 w-[452px] lg:w-[452px] mb-[12px]">
+                <li className="flex gap-4 items-center h-16 w-[452px] lg:w-[452px] mb-[12px]">
                   <span className="flex justify-start lg:justify-center items-center w-16 h-16 rounded-full bg-woodsmoke-dark shrink-0">
                     <img src="/images/icons-png/flowers.png" alt="Іконка" className="max-w-8.5 mx-auto lg:mx-0" />
                   </span>
@@ -56,7 +56,7 @@ export default function Provides() {
                   <span className="flex justify-start lg:justify-center items-center w-16 h-16 rounded-full bg-woodsmoke-dark shrink-0">
                     <img src="/images/icons-png/cargo.png" alt="Іконка" className="max-w-8.5 mx-auto lg:mx-0" />
                   </span>
-                  <div className="w-full sm:w-auto flex-grow-0 sm:flex-grow my-auto sm:my-0 sm:pt-0 pt-[11px]">Найкраща локація з найбільшим пішим трафіком</div>
+                  <div className="w-full sm:w-auto flex-grow-0 sm:flex-grow my-auto sm:my-0 sm:pt-0 pt-[11px]">Найкраща локація з найбільшим пішим ��рафіком</div>
                 </li>
                 <li className="flex gap-4 items-center h-16 w-[452px] lg:w-[452px]">
                   <span className="flex justify-start lg:justify-center items-center w-16 h-16 rounded-full bg-woodsmoke-dark shrink-0">
