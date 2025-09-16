@@ -26,7 +26,7 @@ const Reasons = () => {
                 <p>(02)</p>
               </div>
               <p className="text-[22px]/[114%] xs:text-[28px]/[114%] font-bold text-mercury-white mb-6.5">
-                <span className="text-tangerine capitalize">П��ВНЕ</span> ЗАБЕЗПЕЧЕННЯ РОБОТИ СИСТЕМИ
+                <span className="text-tangerine capitalize">ПОВНЕ</span> ЗАБЕЗПЕЧЕННЯ РОБОТИ СИСТЕМИ
               </p>
               <p className="text-xl/[110%] text-boulder-dust 3xl:max-w-[520px]">
                 МВК МАШ забезпечує весь життєвий цикл системи: монтаж, пусконалагоджувальні роботи та подальше технічне обслуговування. Ви завантажуєте авторські композиції та сувеніри, контролюєте реалізацію та отримуєте прибуток.
