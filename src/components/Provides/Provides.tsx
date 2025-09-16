@@ -3,7 +3,7 @@ export default function Provides() {
     <section id="provides" className="pb-40 1xl:pb-55 3xl:pb-60 4xl:pb-70">
       <div className="section flex flex-col 1xl:flex-row 1xl:flex-wrap">
           {/* Left column: background title block */}
-          <div className="flex flex-col w-1/2 mr-auto">
+          <div className="flex flex-col lg:flex-row lg:w-1/2 lg:w-1/3 mr-auto">
             <h2 className="font-second font-medium text-center mr-auto mb-[40px]">
               Як це працює?
             </h2>
@@ -16,12 +16,11 @@ export default function Provides() {
           </div>
 
           {/* Right column: content lists */}
-          <div className="flex flex-col w-1/2 justify-start items-start">
-            <div className="flex flex-col gap-10 sm:gap-15 items-center justify-center lg:items-start lg:justify-start pr-[2px] mt-[4px] mr-[-2px] ml-[5px]">
-              <ul className="flex flex-col items-center sm:items-stretch lg:items-start justify-center lg:flex-wrap lg:justify-start text-boulder-dust text-[20px]/[22px] gap-y-6 gap-x-1.5 mr-[-1px]">
-                <li className="max-w-[456px] tracking-[0.02em]">Флоромат (квіткомат) - обладнання для продажу авторських квіткових композицій та сувенірів.</li>
-                <li className="max-w-[456px] tracking-[0.02em]">Таке обладнання забезпечує автономну реалізацію квітів без участі продавців.</li>
-                <li className="max-w-[456px] tracking-[0.02em] order-3">Ми надаємо місце та обладнання. Ви контролюєте реалізацію та прибуток.</li>
+
+              <ul className="flex flex-col gap-y-6 lg:gap-x-1.5 text-boulder-dust xs:text-xl/[110%] mb-13.5 lg:flex-row lg:flex-wrap 1xl:max-w-[904px] 1xl:gap-x-3 lg:gap-y-13.5 3xl:max-w-[1142px] 1xl:mb-27 4xl:text-[22px] 4xl:max-w-[1540px] 3xl:gap-x-13 4xl:gap-x-18 4xl:gap-y-16">
+                <li className="tracking-[0.02em] 3xl:tracking-[0.07em] 1xl:tracking-normal lg:max-w-114 1xl:max-w-[440px] 3xl:max-w-[544px] 4xl:max-w-[732px]">Флоромат (квіткомат) - обладнання для продажу авторських квіткових композицій та сувенірів.</li>
+                <li className="tracking-[0.02em] 3xl:tracking-[0.07em] 1xl:tracking-normal lg:max-w-114 1xl:max-w-[440px] 3xl:max-w-[544px] 4xl:max-w-[732px]">Таке обладнання забезпечує автономну реалізацію квітів без участі продавців.</li>
+                <li className="tracking-[0.02em] 3xl:tracking-[0.07em] 1xl:tracking-normal lg:max-w-114 1xl:max-w-[440px] 3xl:max-w-[544px] 4xl:max-w-[732px]">Ми надаємо місце та обладнання. Ви контролюєте реалізацію та прибуток.</li>
               </ul>
 
               <ul className="flex flex-col items-start text-mercury-white font-semibold text-[18px]/[28px] gap-y-6 sm:gap-y-12 gap-x-1.5 pb-[31px] mt-0 mr-0 mb-[-1px] ml-[-3px]">
@@ -56,8 +55,6 @@ export default function Provides() {
                   <div className="sm:mt-0 mt-[1px] sm:pt-0 pt-[22px]">Безпечна конструкція із системою сигналізації та відоспостереження</div>
                 </li>
               </ul>
-            </div>
-          </div>
       </div>
     </section>
   );
