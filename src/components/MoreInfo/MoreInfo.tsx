@@ -65,7 +65,7 @@ const MoreInfo = () => {
   };
 
   return (
-    <section id="more-info" className="pb-[121px]">
+    <section id="more-info" className="pb-40 1xl:pb-55 3xl:pb-60 4xl:pb-70">
       <div className="section">
         <div className="pt-8 pb-7 px-3 xs:pt-10.5 xs:pb-14 xs:px-6 lg:pt-16 lg:pb-9 lg:px-15.5 1xl:py-12.5 1xl:px-12 3xl:pr-25 3xl:pl-19 4xl:px-30 4xl:py-28.5 bg-cod-dark rounded-[26px] xs:gap-18 lg:gap-0 3xl:gap-x-75 4xl:gap-x-81 flex flex-col 1xl:flex-row">
           {/* Ліва колонка: заголовок + опис */}
