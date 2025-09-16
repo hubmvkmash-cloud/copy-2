@@ -29,7 +29,7 @@ const LockerType = () => {
                       <img
                         src={locker.imgPath}
                         alt={`Фото ${locker.title}`}
-                        className="max-w-8.5"
+                        className="max-w-[34px]"
                       />
                     </div>
                     <div>
