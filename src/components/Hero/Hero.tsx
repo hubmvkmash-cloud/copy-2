@@ -28,7 +28,7 @@ const Hero = () => {
                 <span className="text-tangerine block text-center mt-[200px]">Збільши прибуток</span>
                 <span className="block self-center font-medium text-center sm:text-inherit">свого квіткового бізнесу</span>
               </h1>
-              <p className="text-[18px]/[22px] font-normal text-alto-white max-w-[500px] text-center mb-[34px] sm:mb-0">
+              <p className="text-[18px]/[22px] font-normal text-alto-white max-w-[631px] lg:max-w-[500px] text-center mb-[34px] sm:mb-0">
                 <span className="xs:text-[20px]">У тебе є квітковий магазин або мрієш почати?</span>
                 <br />
                 <br />
@@ -39,7 +39,7 @@ const Hero = () => {
             <SmartButton
               label="Рішення для бізнесу"
               href="#provides"
-              className="4xl:text-[20px]/[1] mt-[3px] pt-[11px] pb-[13px] mx-auto sm:ml-auto"
+              className="4xl:text-[20px]/[1] mt-[20px] lg:mt-[3px] pt-[11px] pb-[13px] mx-auto sm:ml-auto"
               labelClassName="pt-[2px] mx-auto sm:mx-0"
             />
           </div>
