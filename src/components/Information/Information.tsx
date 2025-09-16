@@ -3,7 +3,7 @@ import { information } from '../../data/information';
 const Information = () => {
   return (
     <section id="information" className="pb-40 1xl:pb-55 3xl:pb-60 4xl:pb-70">
-      <div className="section flex flex-col mx-auto">
+      <div className="section flex flex-col">
         <div className="mb-9 1xl:mb-20 3xl:mb-17 4xl:mb-15 flex items-center justify-between">
           <h2 className="leading-[110%] font-second font-medium">
             Метрики та фінанcові показники
@@ -22,7 +22,7 @@ const Information = () => {
             return (
               <li
                 key={index}
-                className="border-t border-tuatara/75 pt-8 flex flex-col lg:flex-row gap-2.5 lg:gap-[100px] 3xl:gap-63 4xl:gap-90"
+                className="border-t-2 lg:border-t border-tuatara/75 pt-8 flex flex-col lg:flex-row gap-2.5 lg:gap-[100px] 3xl:gap-63 4xl:gap-90"
               >
                 <p className="text-[36px]/[31px] text-boulder-dust font-medium">
                   {info.number}
