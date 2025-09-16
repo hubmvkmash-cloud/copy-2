@@ -2,22 +2,22 @@ export default function Provides() {
   return (
     <section id="provides" className="pb-20 mx-auto flex flex-col justify-center items-start">
       <div className="section max-w-[1024px] px-10 mx-auto">
-        <div className="flex flex-col gap-5">
+        <div className="flex flex-row gap-5">
           {/* Left column: background title block */}
-          <div className="flex flex-col md:w-1/2 mr-auto">
-            <h2 className="font-second font-medium text-center mr-auto mb-[10px]">
+          <div className="flex flex-col w-1/2 mr-auto">
+            <h2 className="font-second font-medium text-center mr-auto mb-[40px]">
               Як це працює?
             </h2>
             <img
               loading="lazy"
               src="https://cdn.builder.io/api/v1/image/assets%2F72ae2a4d99034a3aa7809f652e4e761b%2F2eed2cabd7bb4c308d76431764a8bf3a"
-              className="w-auto self-center sm:w-full sm:self-stretch object-contain"
+              className="w-full self-stretch object-contain"
               alt="Як це працює"
             />
           </div>
 
           {/* Right column: content lists */}
-          <div className="flex flex-col md:w-1/2 justify-start items-center md:items-start -mt-1 md:mt-0 ml-[-1px] sm:ml-0">
+          <div className="flex flex-col w-1/2 justify-start items-start">
             <div className="flex flex-col gap-10 sm:gap-15 items-center justify-center lg:items-start lg:justify-start pr-[2px] mt-[4px] mr-[-2px] ml-[5px]">
               <ul className="flex flex-col items-center sm:items-stretch lg:items-start justify-center lg:flex-wrap lg:justify-start text-boulder-dust text-[20px]/[22px] gap-y-6 gap-x-1.5 mr-[-1px]">
                 <li className="max-w-[456px] tracking-[0.02em]">Флоромат (квіткомат) - обладнання для продажу авторських квіткових композицій та сувенірів.</li>
