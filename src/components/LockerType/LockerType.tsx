@@ -16,7 +16,7 @@ const LockerType = () => {
               <img
                 alt="picture"
                 src="https://cdn.builder.io/api/v1/image/assets%2F72ae2a4d99034a3aa7809f652e4e761b%2F5e0a6aaf1b4f456c88f462786d1be943"
-                className="w-full h-full object-cover mt-[105px] pr-[31px] mr-[9px] ml-[-4px] mb-[21px]"
+                className="w-full h-full object-cover mt-[150px]"
                 loading="lazy"
               />
             </div>

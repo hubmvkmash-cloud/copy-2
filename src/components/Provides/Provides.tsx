@@ -1,6 +1,6 @@
 export default function Provides() {
   return (
-    <section id="provides" className="pb-20 mx-auto">
+    <section id="provides" className="pb-20 mx-auto flex flex-col justify-center items-start">
       <div className="section max-w-[375px] sm:max-w-none px-3 sm:px-0 mx-auto">
         <div className="flex flex-col md:flex-row gap-5 md:gap-5">
           {/* Left column: background title block */}
@@ -28,7 +28,7 @@ export default function Provides() {
           <div className="flex flex-col md:w-1/2 justify-start items-center md:items-start -mt-1 md:mt-0 ml-[-1px] sm:ml-0">
             <div className="flex flex-col gap-15 items-center justify-center lg:items-start lg:justify-start pr-[2px] mt-[4px] mr-[-2px] ml-[5px]">
               <ul className="flex flex-col items-stretch justify-center lg:flex-wrap lg:items-start lg:justify-start text-boulder-dust text-[20px]/[22px] gap-y-6 gap-x-1.5 mr-[-1px] lg:mr-[101px]">
-                <li className="max-w-[456px] tracking-[0.02em]">Флоромат - вендинговий апарат для продажу авторських квіткових композицій та сувенірів.</li>
+                <li className="max-w-[456px] tracking-[0.02em]">Флоромат (квіткомат) - обладнання для продажу авторських квіткових композицій та сувенірів.</li>
                 <li className="max-w-[456px] tracking-[0.02em]">Таке обладнання забезпечує автономну реалізацію квітів без участі продавців.</li>
                 <li className="max-w-[456px] tracking-[0.02em] order-3">Ми надаємо місце та обладнання. Ви контролюєте реалізацію та прибуток.</li>
               </ul>
