@@ -2,8 +2,8 @@ import { lockers } from '../../data/lockers';
 
 const LockerType = () => {
   return (
-    <section id="locker" className="pb-[70px] sm:pb-40 1xl:pb-55 3xl:pb-60 4xl:pb-70">
-      <div className="section flex flex-col 1xl:flex-row 1xl:flex-wrap gap-18 1xl:gap-35 max-w-[1024px] px-10 mx-auto">
+    <section id="locker" className="pb-40 1xl:pb-55 3xl:pb-60 4xl:pb-70">
+      <div className="section flex flex-col 1xl:flex-row 1xl:flex-wrap gap-18 1xl:gap-35mx-auto">
         <div className="3xl:pl-69 4xl:pl-94 flex flex-col gap-[120px] sm:gap-[200px]">
           <div className="lg:grid lg:grid-cols-[1fr_460px] 1xl:grid-cols-[1fr_676px] 3xl:grid-cols-[1fr_760px] 4xl:grid-cols-[864px_844px] lg:gap-x-5 1xl:gap-x-10 lg:items-start 3xl:gap-x-25 4xl:justify-between mr-[23px]">
             <div className="mb-18 1xl:mb-35 1xl:col-start-1 1xl:row-start-1 mt-[-1px] sm:mt-0">
