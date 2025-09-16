@@ -9,7 +9,7 @@ export default function Provides() {
               className="font-second font-medium text-center self-stretch w-auto h-auto min-h-[441px] sm:min-h-[900px] mt-[7px] mb-[62px] sm:mb-[40px] flex-grow-0"
               style={{
                 backgroundImage:
-                  'url(https://cdn.builder.io/api/v1/image/assets%2F72ae2a4d99034a3aa7809f652e4e761b%2F5537c778e73b4ba280b542dd39a24aed)',
+                  'url(https://cdn.builder.io/api/v1/image/assets%2F72ae2a4d99034a3aa7809f652e4e761b%2F2eed2cabd7bb4c308d76431764a8bf3a)',
                 backgroundRepeat: 'no-repeat',
                 backgroundPosition: 'center',
                 backgroundSize: 'cover',
@@ -26,14 +26,14 @@ export default function Provides() {
 
           {/* Right column: content lists */}
           <div className="flex flex-col md:w-1/2 justify-start items-center md:items-start -mt-1 md:mt-0 ml-[-1px] sm:ml-0">
-            <div className="flex flex-col gap-15 items-center justify-center lg:items-start lg:justify-start pr-[1px] mt-[4px] mr-[-2px] ml-[5px] sm:pr-0 sm:mt-0 sm:mr-0 sm:ml-[90px]">
+            <div className="flex flex-col gap-15 items-center justify-center lg:items-start lg:justify-start pr-[2px] mt-[4px] mr-[-2px] ml-[5px]">
               <ul className="flex flex-wrap text-boulder-dust text-[20px]/[22px] gap-y-6 gap-x-1.5 mr-[101px] lg:mr-0">
-                <li className="max-w-[456px] tracking-[0.02em]">Флоромат - вендинговий апарат для продажу авторських квіткових композицій.</li>
-                <li className="max-w-[456px] tracking-[0.02em]">Флоромат забезпечує автономну реалізацію квітів без участі флористів.</li>
-                <li className="max-w-[456px] tracking-[0.02em] order-3">Ми надаємо ексклюзивну можливість встановлення апарату на вокзалах Укрзалізниці.</li>
+                <li className="max-w-[456px] tracking-[0.02em]">Флоромат - вендинговий апарат для продажу авторських квіткових композицій та сувенірів.</li>
+                <li className="max-w-[456px] tracking-[0.02em]">Таке обладнання забезпечує автономну реалізацію квітів без участі продавців.</li>
+                <li className="max-w-[456px] tracking-[0.02em] order-3">Ми надаємо місце та обладнання. Ви контролюєте реалізацію та прибуток.</li>
               </ul>
 
-              <ul className="flex flex-wrap text-mercury-white font-semibold text-[18px]/[28px] gap-y-[48px] sm:gap-y-[30px] lg:gap-y-10.5 gap-x-1.5 mb-[-2px] sm:mb-[-1px] pb-[31px] mt-[-1px] mr-[-4px] ml-[-1px] sm:mt-0 sm:mr-0 sm:ml-0">
+              <ul className="flex flex-wrap text-mercury-white font-semibold text-[18px]/[28px] gap-y-[48px] sm:gap-y-[30px] lg:gap-y-10.5 gap-x-1.5 pb-[31px] mt-0 mr-0 mb-[-1px] ml-[-3px]">
                 <li className="flex gap-4 items-center h-16 w-[343px] lg:w-[452px]">
                   <span className="flex justify-start lg:justify-center items-center w-16 h-16 rounded-full bg-woodsmoke-dark shrink-0">
                     <img src="/images/icons-png/cleaning.png" alt="Іконка" className="max-w-8.5 mx-auto lg:mx-0" />

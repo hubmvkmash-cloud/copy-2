@@ -16,12 +16,12 @@ const LockerType = () => {
               <img
                 alt="picture"
                 src="https://cdn.builder.io/api/v1/image/assets%2F72ae2a4d99034a3aa7809f652e4e761b%2F5e0a6aaf1b4f456c88f462786d1be943"
-                className="w-full h-full object-cover mt-[105px] pr-[31px] mr-[9px] ml-[-4px]"
+                className="w-full h-full object-cover mt-[105px] pr-[31px] mr-[9px] ml-[-4px] mb-[21px]"
                 loading="lazy"
               />
             </div>
 
-            <ul className="flex flex-col gap-[43px] lg:col-start-1 lg:row-start-2">
+            <ul className="flex flex-col gap-[43px] lg:col-start-1 lg:row-start-2 justify-center items-start">
               {lockers.map((locker, index) => {
                 return (
                   <li key={index} className="flex items-center gap-6">
