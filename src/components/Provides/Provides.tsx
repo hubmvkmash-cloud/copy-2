@@ -1,7 +1,7 @@
 export default function Provides() {
   return (
-    <section id="provides" className="pb-20 mx-auto flex flex-col justify-center items-start">
-      <div className="section max-w-[1024px] px-10 mx-auto">
+    <section id="provides" className="pb-40 1xl:pb-55 3xl:pb-60 4xl:pb-70">
+      <div className="section flex flex-col 1xl:flex-row 1xl:flex-wrap">
         <div className="flex flex-row gap-5">
           {/* Left column: background title block */}
           <div className="flex flex-col w-1/2 mr-auto">
