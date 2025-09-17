@@ -3,7 +3,7 @@ export default function Provides() {
     <section id="provides" className="pb-40 1xl:pb-55 3xl:pb-60 4xl:pb-70">
       <div className="section flex flex-col lg:flex-row lg:flex-wrap">
           {/* Left column: background title block */}
-        <div className="flex flex-col lg:w-[48%] 1xl:w-[32%] mr-auto mb-5 lg:mb-0">
+        <div className="flex flex-col lg:w-[48%] max-[1440px]:w-[32%] mr-auto mb-5 lg:mb-0">
             <h2 className="font-second font-medium text-center mr-auto mb-[40px]">
               Як це працює?
             </h2>
