@@ -5,24 +5,24 @@ const Information = () => {
     <section id="information" className="pb-40 1xl:pb-55 3xl:pb-60 4xl:pb-70">
       <div className="section flex flex-col">
         <div className="mb-9 1xl:mb-20 3xl:mb-17 4xl:mb-15 flex items-center justify-between">
-          <h2 className="leading-[110%] font-second font-medium">
+          <h2 className="font-second font-medium text-[32px]/[35px]">
             Метрики та фінанcові показники
           </h2>
           <img
             src="/images/info.png"
             alt="Стрілка"
-            className="hidden xs:block w-5 h-5 1xl:w-10 1xl:h-10"
+            className="w-5 h-5"
           />
         </div>
 
-        <div className="relative mt-5 text-right lg:pr-[200px]">Середні показники/ місяць</div>
+        <div className="relative mt-5 text-right pr-[200px] max-[991px]:pr-[72px]">Середні показники/ місяць</div>
 
         <ul className="flex flex-col gap-[26px]">
           {information.map((info, index) => {
             return (
               <li
                 key={index}
-                className="border-t-2 lg:border-t border-tuatara/75 pt-8 flex flex-col lg:flex-row gap-2.5 lg:gap-[100px] 3xl:gap-63 4xl:gap-90"
+                className="border-t border-tuatara/75 pt-8 flex flex-col lg:flex-row gap-[100px] 3xl:gap-63 4xl:gap-90"
               >
                 <p className="text-[36px]/[31px] text-boulder-dust font-medium">
                   {info.number}
@@ -35,7 +35,7 @@ const Information = () => {
                     {info.description}
                   </p>
                 </div>
-                <div className="flex justify-between text-[24px]/[21px] text-boulder-dust font-medium min-w-[240px] shrink-0">
+                <div className="flex justify-between text-[24px]/[21px] text-boulder-dust font-medium min-w-[240px] max-[991px]:min-w-[340px] shrink-0">
                   <p>{info.price}</p>
                   <p className={(['ml-[23px]','ml-[22px]','ml-[26px]','ml-[26px]','ml-[28px]'][index] ?? '')}>{info.duration}</p>
                 </div>
