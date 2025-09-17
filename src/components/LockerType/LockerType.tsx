@@ -16,7 +16,7 @@ const LockerType = () => {
               <img
                 alt="picture"
                 src="https://cdn.builder.io/api/v1/image/assets%2F72ae2a4d99034a3aa7809f652e4e761b%2F5e0a6aaf1b4f456c88f462786d1be943"
-                className="w-full h-full object-cover mt-[150px]"
+                className="w-full h-full object-cover"
                 loading="lazy"
               />
             </div>
@@ -47,7 +47,7 @@ const LockerType = () => {
           </div>
 
           <div className="w-full">
-            <div className="grid grid-cols-1 gap-5 px-[10px] sm:px-10">
+            <div className="grid grid-cols-1 gap-5">
               <img
                 alt="picture"
                 src="https://cdn.builder.io/api/v1/image/assets%2F72ae2a4d99034a3aa7809f652e4e761b%2F6cdf8a503f51429a8bd09812b01d6fb7"
