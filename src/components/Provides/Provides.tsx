@@ -17,7 +17,7 @@ export default function Provides() {
 
           {/* Right column: content lists */}
 
-              <ul className="flex flex-col gap-y-6 lg:gap-x-1.5 text-boulder-dust xs:text-xl/[110%] mb-13.5 lg:flex-row lg:flex-wrap 1xl:max-w-[904px] 1xl:gap-x-3 lg:gap-y-13.5 3xl:max-w-[1142px] 1xl:mb-27 4xl:text-[22px] 4xl:max-w-[1540px] 3xl:gap-x-13 4xl:gap-x-18 4xl:gap-y-16">
+              <ul className="flex flex-wrap text-boulder-dust text-[20px]/[22px] gap-y-[54px] gap-x-1.5 mb-[54px] max-[991px]:flex-col max-[991px]:items-stretch">
                 <li className="tracking-[0.02em] 3xl:tracking-[0.07em] 1xl:tracking-normal lg:max-w-114 1xl:max-w-[440px] 3xl:max-w-[544px] 4xl:max-w-[732px]">Флоромат (квіткомат) - обладнання для продажу авторських квіткових композицій та сувенірів.</li>
                 <li className="tracking-[0.02em] 3xl:tracking-[0.07em] 1xl:tracking-normal lg:max-w-114 1xl:max-w-[440px] 3xl:max-w-[544px] 4xl:max-w-[732px]">Таке обладнання забезпечує автономну реалізацію квітів без участі продавців.</li>
                 <li className="tracking-[0.02em] 3xl:tracking-[0.07em] 1xl:tracking-normal lg:max-w-114 1xl:max-w-[440px] 3xl:max-w-[544px] 4xl:max-w-[732px]">Ми надаємо місце та обладнання. Ви контролюєте реалізацію та прибуток.</li>
