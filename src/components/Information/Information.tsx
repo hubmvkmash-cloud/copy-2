@@ -15,7 +15,7 @@ const Information = () => {
           />
         </div>
 
-        <div className="relative mt-5 text-right pr-[200px] max-[991px]:pr-[72px]">Середні показники/ місяць</div>
+        <div className="relative mt-5 text-right pr-[200px] max-[991px]:pr-[72px] 1xl:pr-[172px]">Середні показники/ місяць</div>
 
         <ul className="flex flex-col gap-[26px]">
           {information.map((info, index) => {
@@ -35,7 +35,7 @@ const Information = () => {
                     {info.description}
                   </p>
                 </div>
-                <div className="flex justify-between text-[24px]/[21px] text-boulder-dust font-medium min-w-[240px] max-[991px]:min-w-[340px] shrink-0">
+                <div className="flex justify-between text-[24px]/[21px] text-boulder-dust font-medium min-w-[240px] max-[991px]:min-w-[340px] 1xl:min-w-[420px] shrink-0">
                   <p>{info.price}</p>
                   <p className={(['ml-[23px]','ml-[22px]','ml-[26px]','ml-[26px]','ml-[28px]'][index] ?? '')}>{info.duration}</p>
                 </div>
