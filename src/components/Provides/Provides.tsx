@@ -5,7 +5,7 @@ export default function Provides() {
           {/* Left column: background title block */}
         <div className="flex flex-col lg:w-[48%] 1xl:w-[32%] mr-auto mb-5 lg:mb-0">
             <h2 className="font-second font-medium text-center mr-auto mb-[40px]">
-              Як це працює?
+              Я�� це працює?
             </h2>
             <img
               loading="lazy"
@@ -41,7 +41,7 @@ export default function Provides() {
                   <span className="flex justify-start lg:justify-center items-center w-16 h-16 rounded-full bg-woodsmoke-dark shrink-0">
                     <img src="/images/icons-png/flowers.png" alt="Іконка" className="max-w-[34px] mx-auto lg:mx-0" />
                   </span>
-                  <div className="lg:mr-0 mr-[-1px] sm:pt-0 pt-5">Автоматизація процесу та ди��танційне керування через мобільний додаток</div>
+                  <div className="lg:mr-0 mr-[-1px] sm:pt-0 pt-5"><p>Автоматизація процесу та диcтанційне керування через мобільний додаток</p></div>
                 </li>
                 <li className="flex gap-6 h-16 items-center max-w-[456px] w-full 1xl:max-w-[49%] 1xl:w-auto">
                   <span className="flex justify-start lg:justify-center items-center w-16 h-16 rounded-full bg-woodsmoke-dark shrink-0">
