@@ -12,7 +12,7 @@ const LockerType = () => {
               </h2>
             </div>
 
-            <div className="flex gap-5"> 
+            <div className="flex gap-5">
               <div className="xs:max-w-[520px] xs:aspect-[520/352] mb-12 lg:max-w-[460px] lg:col-start-2 lg:row-span-2 1xl:mb-0 1xl:max-w-[674px] 3xl:max-w-[760px] 3xl:aspect-[760/552] 4xl:max-w-[844px] max-[991px]:flex max-[991px]:flex-col max-[991px]:items-center max-[991px]:justify-center ml-auto">
                 <img
                   alt="picture"
