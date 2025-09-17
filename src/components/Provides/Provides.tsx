@@ -3,7 +3,7 @@ export default function Provides() {
     <section id="provides" className="pb-40 1xl:pb-55 3xl:pb-60 4xl:pb-70">
       <div className="section flex flex-col lg:flex-row lg:flex-wrap">
           {/* Left column: background title block */}
-          <div className="flex flex-col lg:w-[48%] mr-auto mb-5 lg:mb-0">
+        <div className="flex flex-col lg:w-[48%] 1xl:w-[32%] mr-auto mb-5 lg:mb-0">
             <h2 className="font-second font-medium text-center mr-auto mb-[40px]">
               Як це працює?
             </h2>
@@ -17,14 +17,14 @@ export default function Provides() {
 
           {/* Right column: content lists */}
 
-            <div className="flex flex-col mr-auto lg:w-[48%]">
-              <ul className="flex flex-wrap text-boulder-dust text-[20px]/[22px] gap-y-[54px] gap-x-1.5 mb-[54px] max-[991px]:flex-col max-[991px]:items-stretch">
+        <div className="flex flex-col mr-auto lg:w-[48%]  1xl:w-auto">
+              <ul className="flex flex-wrap text-boulder-dust text-[20px]/[22px] gap-y-[54px] gap-x-1.5 mb-[54px] max-[991px]:flex-col max-[991px]:items-stretch 1xl:flex-row">
                 <li className="tracking-[0.02em] 3xl:tracking-[0.07em] 1xl:tracking-normal lg:max-w-114 1xl:max-w-[440px] 3xl:max-w-[544px] 4xl:max-w-[732px]">Флоромат (квіткомат) - обладнання для продажу авторських квіткових композицій та сувенірів.</li>
                 <li className="tracking-[0.02em] 3xl:tracking-[0.07em] 1xl:tracking-normal lg:max-w-114 1xl:max-w-[440px] 3xl:max-w-[544px] 4xl:max-w-[732px]">Таке обладнання забезпечує автономну реалізацію квітів без участі продавців.</li>
                 <li className="tracking-[0.02em] 3xl:tracking-[0.07em] 1xl:tracking-normal lg:max-w-114 1xl:max-w-[440px] 3xl:max-w-[544px] 4xl:max-w-[732px]">Ми надаємо місце та обладнання. Ви контролюєте реалізацію та прибуток.</li>
               </ul>
 
-              <ul className="flex flex-wrap text-[18px]/[28px] font-semibold gap-y-[42px] gap-x-1.5">
+          <ul className="flex flex-wrap text-[18px]/[28px] font-semibold gap-y-[42px] gap-x-1.5 1xl:flex-row">
                 <li className="flex gap-6 h-16 items-center max-w-[456px] w-full">
                   <span className="flex justify-start lg:justify-center items-center w-16 h-16 rounded-full bg-woodsmoke-dark shrink-0">
                     <img src="/images/icons-png/cleaning.png" alt="Іконка" className="max-w-[34px] mx-auto lg:mx-0" />
