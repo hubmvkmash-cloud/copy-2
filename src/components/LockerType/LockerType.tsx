@@ -7,12 +7,12 @@ const LockerType = () => {
         <div className="3xl:pl-69 4xl:pl-94 flex flex-col gap-[60px] lg:gap-[120px]">
           <div className="lg:grid lg:grid-cols-[1fr_460px] 1xl:grid-cols-[1fr_676px] 3xl:grid-cols-[1fr_760px] 4xl:grid-cols-[864px_844px] lg:gap-x-5 1xl:gap-x-10 lg:items-start 3xl:gap-x-25 4xl:justify-between mr-[23px]">
             <div className="mb-12 1xl:mb-35 1xl:col-start-1 1xl:row-start-1 mt-[-1px] sm:mt-0">
-              <h2 className="mb-6 3xl:mb-17 4xl:mb-15 font-second font-medium leading-[110%]">
+              <h2 className="mb-6 3xl:mb-17 4xl:mb-15 font-second font-medium text-[32px]/[35px]">
                 Технічні характеристики
               </h2>
             </div>
 
-            <div className="xs:max-w-[520px] xs:aspect-[520/352] mb-12 lg:max-w-[460px] lg:col-start-2 lg:row-span-2 1xl:mb-0 1xl:max-w-[674px] 3xl:max-w-[760px] 3xl:aspect-[760/552] 4xl:max-w-[844px]">
+            <div className="xs:max-w-[520px] xs:aspect-[520/352] mb-12 lg:max-w-[460px] lg:col-start-2 lg:row-span-2 1xl:mb-0 1xl:max-w-[674px] 3xl:max-w-[760px] 3xl:aspect-[760/552] 4xl:max-w-[844px] max-[991px]:flex max-[991px]:flex-col max-[991px]:items-center max-[991px]:justify-center">
               <img
                 alt="picture"
                 src="https://cdn.builder.io/api/v1/image/assets%2F72ae2a4d99034a3aa7809f652e4e761b%2F5e0a6aaf1b4f456c88f462786d1be943"
