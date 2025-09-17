@@ -29,13 +29,13 @@ const Reasons = () => {
               </div>
               <p className="text-[22px]/[114%] xs:text-[28px]/[114%] font-bold text-mercury-white mb-6.5">
                 <span className="text-tangerine capitalize">ПОВНЕ</span>
-                <span className="block">ЗАБЕЗ��ЕЧЕННЯ РОБОТИ СИСТЕМИ</span>
+                <span className="block">ЗАБЕЗПЕЧЕННЯ РОБОТИ СИСТЕМИ</span>
               </p>
               <p className="text-xl/[110%] text-boulder-dust 3xl:max-w-[520px]">
                 Ми забезпечуємо весь життєвий цикл системи: виготовлення
                 обладнання, монтаж та подальше технічне обслуговування.
                 <br />
-                Ви завантажуєте авторські композиції та сувеніри, контролюєте
+                Ви завантажує��е авторські композиції та сувеніри, контролюєте
                 реалізацію та отримуєте прибуток.
               </p>
             </li>
