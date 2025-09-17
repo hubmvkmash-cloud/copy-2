@@ -25,7 +25,7 @@ const Information = () => {
             return (
               <li
                 key={index}
-                className="border-t-[1.6px] border-tuatara/75 pt-8 flex flex-col lg:flex-row max-[1023px]:gap-[50px] gap-[100px]"
+                className="border-t-[1.6px] border-tuatara/75 pt-8 flex flex-col lg:flex-row max-[1023px]:gap-[32px] gap-[100px]"
               >
                 <p className="text-[36px]/[31px] text-boulder-dust font-medium">
                   {info.number}
