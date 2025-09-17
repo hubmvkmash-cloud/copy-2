@@ -5,7 +5,7 @@ export default function Provides() {
           {/* Left column: background title block */}
         <div className="flex flex-col lg:w-[48%] 1xl:w-[32%] mr-auto mb-5 lg:mb-0">
             <h2 className="font-second font-medium text-center mr-auto mb-[40px]">
-              Я�� це працює?
+              Як це працює?
             </h2>
             <img
               loading="lazy"
