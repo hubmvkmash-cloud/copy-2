@@ -14,13 +14,13 @@ const FAQ = () => {
             <AskUsButton targetId="more-info" className="hidden lg:flex" />
           </div>
           {/*Right: list */}
-          <ul className="flex flex-col w-full gap-[9px] lg:gap-10.5 1xl:gap-14.5 max-[1023px]:mb-[60px] mb-0 1xl:max-w-[902px] 3xl:max-w-[1156px] 4xl:max-w-[1486px]">
+          <ul className="flex flex-col w-full gap-[58px] 1xl:max-w-[902px] 3xl:max-w-[1156px] 4xl:max-w-[1486px]">
             {faqItems.map(({ title, text }, i) => (
               <li
                 key={i}
-                className="border-t border-tuatara pt-4 lg:pt-8 flex flex-col lg:flex-row gap-3 4xl:gap-4.5 lg:items-start"
+                className="border-t-[0.8px] border-tuatara pt-8 flex flex-col lg:flex-row gap-3 4xl:gap-4.5 items-start lg:items-start"
               >
-                <h3 className="text-lg/[133%] xs:text-[22px]/[145%] lg:leading-[173%] 3xl:text-[26px]/[146%] font-second font-semibold tracking-[-0.03em] lg:w-1/2 lg:flex-1">
+                <h3 className="text-[22px]/[38px] font-second font-semibold tracking-[-0.66px] lg:w-1/2 lg:flex-1 lg:basis-0">
                   {title}
                 </h3>
                 <p className="leading-[137%] xs:text-lg/[122%] lg:text-xl/[110%] text-boulder-dust lg:w-1/2">
