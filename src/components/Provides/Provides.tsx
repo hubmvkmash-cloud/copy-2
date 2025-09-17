@@ -3,7 +3,7 @@ export default function Provides() {
     <section id="provides" className="pb-40 1xl:pb-55 3xl:pb-60 4xl:pb-70">
       <div className="section flex flex-col 1xl:flex-row 1xl:flex-wrap">
           {/* Left column: background title block */}
-          <div className="flex flex-col md:w-1/2 lg:1/3 mr-auto mb-5 lg:mb-0">
+          <div className="flex flex-col w-1/2 max-[991px]:w-[48%] mr-auto mb-5 lg:mb-0">
             <h2 className="font-second font-medium text-center mr-auto mb-[40px]">
               Як це працює?
             </h2>
@@ -40,7 +40,7 @@ export default function Provides() {
                   <span className="flex justify-start lg:justify-center items-center w-16 h-16 rounded-full bg-woodsmoke-dark shrink-0">
                     <img src="/images/icons-png/flowers.png" alt="Іконка" className="max-w-[34px] mx-auto lg:mx-0" />
                   </span>
-                  <div className="lg:mr-0 mr-[-1px] sm:pt-0 pt-5">Автоматизація процесу та дистанційне керування через мобільний додаток</div>
+                  <div className="lg:mr-0 mr-[-1px] sm:pt-0 pt-5">Автоматизація процесу та ди��танційне керування через мобільний додаток</div>
                 </li>
                 <li className="flex gap-6 h-16 items-center lg:max-w-114 1xl:max-w-[444px] 3xl:max-w-[544px] 4xl:max-w-[732px] w-full">
                   <span className="flex justify-start lg:justify-center items-center w-16 h-16 rounded-full bg-woodsmoke-dark shrink-0">
