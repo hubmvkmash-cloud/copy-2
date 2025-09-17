@@ -15,14 +15,14 @@ const Information = () => {
           />
         </div>
 
-        <div className="flex items-center justify-between ml-auto 1xl:w-[37%]"><div className="relative text-right text-[18px] mx-auto">Середні показники/ місяць</div></div>
+        <div className="flex items-center justify-between ml-auto lg:w-[33%]"><div className="relative text-right lg:text-center text-[18px] mx-auto">Середні показники/ місяць</div></div>
 
         <ul className="flex flex-col gap-[26px]">
           {information.map((info, index) => {
             return (
               <li
                 key={index}
-                className="border-t-[1.6px] border-tuatara/75 pt-8 flex flex-col lg:flex-row max-[640px]:gap-[50px] gap-[100px] 3xl:gap-63 4xl:gap-90"
+                className="border-t-[1.6px] border-tuatara/75 pt-8 flex flex-col lg:flex-row max-[1023px]:gap-[50px] gap-[100px]"
               >
                 <p className="text-[36px]/[31px] text-boulder-dust font-medium">
                   {info.number}
@@ -35,7 +35,7 @@ const Information = () => {
                     {info.description}
                   </p>
                 </div>
-                <div className="flex justify-between text-[24px]/[21px] text-boulder-dust font-medium min-w-[240px] max-[991px]:min-w-[340px] 1xl:min-w-[33%] shrink-0">
+                <div className="flex justify-between text-[24px]/[21px] text-boulder-dust font-medium min-w-[240px] max-[991px]:min-w-[340px] lg:min-w-[33%] shrink-0">
                   <p>{info.price}</p>
                   <p className={(['ml-[23px]','ml-[22px]','ml-[26px]','ml-[26px]','ml-[28px]'][index] ?? '')}>{info.duration}</p>
                 </div>
