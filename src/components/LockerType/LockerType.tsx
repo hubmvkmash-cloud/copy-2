@@ -21,7 +21,7 @@ const LockerType = () => {
               />
             </div>
 
-            <ul className="flex flex-col gap-[43px] lg:col-start-1 lg:row-start-2 justify-center items-start">
+            <ul className="flex flex-col gap-[42px] lg:col-start-1 lg:row-start-2 justify-center items-start">
               {lockers.map((locker, index) => {
                 return (
                   <li key={index} className="flex items-center gap-6">
