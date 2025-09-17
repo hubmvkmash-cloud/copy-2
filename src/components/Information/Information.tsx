@@ -14,7 +14,7 @@ const Information = () => {
           <img src="/images/info.png" alt="Стрілка" className="w-5 h-5" />
         </div>
 
-        <div className="flex items-center justify-between ml-auto 1xl:w-[33%]">
+        <div className="flex items-center justify-between ml-auto 1xl:w-[36%]">
           <div className="relative text-right lg:text-center text-[18px] mx-auto">
             Середні показники/ місяць
           </div>
