@@ -15,7 +15,7 @@ const Information = () => {
           />
         </div>
 
-        <div className="relative mt-5 text-right pr-[400px]">Середні показники/ місяць</div>
+        <div className="relative mt-5 text-right lg:pr-[200px]">Середні показники/ місяць</div>
 
         <ul className="flex flex-col gap-[26px]">
           {information.map((info, index) => {
