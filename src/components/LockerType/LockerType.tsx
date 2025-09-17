@@ -5,7 +5,7 @@ const LockerType = () => {
     <section id="locker" className="pb-40 1xl:pb-55 3xl:pb-60 4xl:pb-70">
       <div className="section flex flex-col 1xl:flex-row 1xl:flex-wrap gap-18 1xl:gap-35">
         <div className="3xl:pl-69 4xl:pl-94 flex flex-col gap-[60px] lg:gap-[60px]">
-          <div className="flex flex-col items-start gap-10">
+          <div className="flex flex-col gap-10">
             <div className="">
               <h2 className="mb-6 3xl:mb-17 4xl:mb-15 font-second font-medium text-[32px]/[35px]">
                 Технічні характеристики
@@ -13,7 +13,7 @@ const LockerType = () => {
             </div>
 
             <div className="flex flex-row-reverse items-center gap-5 justify-between">
-              <div className="xs:max-w-[520px] xs:aspect-[520/352] mb-12 lg:max-w-[460px] 1xl:mb-0 1xl:max-w-[674px] 3xl:max-w-[760px] 3xl:aspect-[760/552] 4xl:max-w-[844px] max-[991px]:flex max-[991px]:flex-col max-[991px]:items-center max-[991px]:justify-center">
+              <div className="xs:max-w-[520px] xs:aspect-[520/352] mb-12 lg:max-w-[460px] 1xl:mb-0 1xl:max-w-[674px] ml-auto 3xl:max-w-[760px] 3xl:aspect-[760/552] 4xl:max-w-[844px] max-[991px]:flex max-[991px]:flex-col max-[991px]:items-center max-[991px]:justify-center">
                 <img
                   alt="picture"
                   src="https://cdn.builder.io/api/v1/image/assets%2F72ae2a4d99034a3aa7809f652e4e761b%2F5e0a6aaf1b4f456c88f462786d1be943"
