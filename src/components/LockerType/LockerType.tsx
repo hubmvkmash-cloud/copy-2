@@ -12,7 +12,7 @@ const LockerType = () => {
               </h2>
             </div>
 
-            <div className="xs:max-w-[520px] xs:aspect-[520/352] mb-12 lg:max-w-[460px] lg:col-start-2 lg:row-span-2 1xl:mb-0 1xl:max-w-[674px] 3xl:max-w-[760px] 3xl:aspect-[760/552] 4xl:max-w-[844px] max-[991px]:flex max-[991px]:flex-col max-[991px]:items-center max-[991px]:justify-center">
+            <div className="xs:max-w-[520px] xs:aspect-[520/352] mb-12 lg:max-w-[460px] lg:col-start-2 lg:row-span-2 1xl:mb-0 1xl:max-w-[674px] 3xl:max-w-[760px] 3xl:aspect-[760/552] 4xl:max-w-[844px] max-[991px]:flex max-[991px]:flex-col max-[991px]:items-center max-[991px]:justify-center ml-auto">
               <img
                 alt="picture"
                 src="https://cdn.builder.io/api/v1/image/assets%2F72ae2a4d99034a3aa7809f652e4e761b%2F5e0a6aaf1b4f456c88f462786d1be943"
@@ -21,7 +21,7 @@ const LockerType = () => {
               />
             </div>
 
-            <ul className="flex flex-col gap-[42px] lg:col-start-1 lg:row-start-2 justify-center items-start">
+            <ul className="flex flex-col gap-[46px] lg:col-start-1 lg:row-start-2 justify-center items-start">
               {lockers.map((locker, index) => {
                 return (
                   <li key={index} className="flex items-center gap-6">
@@ -47,7 +47,7 @@ const LockerType = () => {
           </div>
 
           <div className="w-full">
-            <div className="grid grid-cols-1 gap-5">
+            <div className="grid grid-cols-1 gap-10">
               <img
                 alt="picture"
                 src="https://cdn.builder.io/api/v1/image/assets%2F72ae2a4d99034a3aa7809f652e4e761b%2F6cdf8a503f51429a8bd09812b01d6fb7"
