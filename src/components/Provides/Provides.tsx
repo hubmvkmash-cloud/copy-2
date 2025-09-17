@@ -3,7 +3,7 @@ export default function Provides() {
     <section id="provides" className="pb-40 1xl:pb-55 3xl:pb-60 4xl:pb-70">
       <div className="section flex flex-col 1xl:flex-row 1xl:flex-wrap">
           {/* Left column: background title block */}
-          <div className="flex flex-col md:w-1/2 mr-auto mb-5 sm:mb-0">
+          <div className="flex flex-col md:w-1/2 lg:1/3 mr-auto mb-5 lg:mb-0">
             <h2 className="font-second font-medium text-center mr-auto mb-[40px]">
               Як це працює?
             </h2>
@@ -19,7 +19,7 @@ export default function Provides() {
 
               <ul className="flex flex-col gap-y-6 lg:gap-x-1.5 text-boulder-dust xs:text-xl/[110%] mb-13.5 lg:flex-row lg:flex-wrap 1xl:max-w-[904px] 1xl:gap-x-3 lg:gap-y-13.5 3xl:max-w-[1142px] 1xl:mb-27 4xl:text-[22px] 4xl:max-w-[1540px] 3xl:gap-x-13 4xl:gap-x-18 4xl:gap-y-16">
                 <li className="tracking-[0.02em] 3xl:tracking-[0.07em] 1xl:tracking-normal lg:max-w-114 1xl:max-w-[440px] 3xl:max-w-[544px] 4xl:max-w-[732px]">Флоромат (квіткомат) - обладнання для продажу авторських квіткових композицій та сувенірів.</li>
-                <li className="tracking-[0.02em] 3xl:tracking-[0.07em] 1xl:tracking-normal lg:max-w-114 1xl:max-w-[440px] 3xl:max-w-[544px] 4xl:max-w-[732px]">Таке обладнання забезпечує автономну реалізацію квітів без участі про��авців.</li>
+                <li className="tracking-[0.02em] 3xl:tracking-[0.07em] 1xl:tracking-normal lg:max-w-114 1xl:max-w-[440px] 3xl:max-w-[544px] 4xl:max-w-[732px]">Таке обладнання забезпечує автономну реалізацію квітів без участі продавців.</li>
                 <li className="tracking-[0.02em] 3xl:tracking-[0.07em] 1xl:tracking-normal lg:max-w-114 1xl:max-w-[440px] 3xl:max-w-[544px] 4xl:max-w-[732px]">Ми надаємо місце та обладнання. Ви контролюєте реалізацію та прибуток.</li>
               </ul>
 
