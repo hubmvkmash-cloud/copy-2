@@ -2,9 +2,9 @@ import { information } from '../../data/information';
 
 const Information = () => {
   return (
-    <section id="information" className="pb-40 1xl:pb-55 3xl:pb-60 4xl:pb-70">
+    <section id="information" className="pb-40 1xl:pb-[220px] 3xl:pb-60 4xl:pb-70">
       <div className="section flex flex-col">
-        <div className="mb-9 1xl:mb-20 3xl:mb-17 4xl:mb-15 flex items-center justify-between">
+        <div className="mb-9 1xl:mb-[64px] 3xl:mb-17 4xl:mb-15 flex items-center justify-between">
           <h2 className="font-second font-medium text-[32px]/[35px]">
             Метрики та фінанcові показники
           </h2>
@@ -15,14 +15,14 @@ const Information = () => {
           />
         </div>
 
-        <div className="relative mt-5 text-right pr-[200px] max-[991px]:pr-[72px] 1xl:pr-[172px] max-[640px]:ml-auto">Середні показники/ місяць</div>
+        <div className="flex items-center justify-between ml-auto 1xl:w-[37%]"><div className="relative text-right text-[18px] mx-auto">Середні показники/ місяць</div></div>
 
         <ul className="flex flex-col gap-[26px]">
           {information.map((info, index) => {
             return (
               <li
                 key={index}
-                className="border-t-2 border-tuatara/75 pt-8 flex flex-col lg:flex-row max-[640px]:gap-[50px] gap-[100px] 3xl:gap-63 4xl:gap-90"
+                className="border-t-[1.6px] border-tuatara/75 pt-8 flex flex-col lg:flex-row max-[640px]:gap-[50px] gap-[100px] 3xl:gap-63 4xl:gap-90"
               >
                 <p className="text-[36px]/[31px] text-boulder-dust font-medium">
                   {info.number}
@@ -35,7 +35,7 @@ const Information = () => {
                     {info.description}
                   </p>
                 </div>
-                <div className="flex justify-between text-[24px]/[21px] text-boulder-dust font-medium min-w-[240px] max-[991px]:min-w-[340px] 1xl:min-w-[420px] shrink-0">
+                <div className="flex justify-between text-[24px]/[21px] text-boulder-dust font-medium min-w-[240px] max-[991px]:min-w-[340px] 1xl:min-w-[33%] shrink-0">
                   <p>{info.price}</p>
                   <p className={(['ml-[23px]','ml-[22px]','ml-[26px]','ml-[26px]','ml-[28px]'][index] ?? '')}>{info.duration}</p>
                 </div>
