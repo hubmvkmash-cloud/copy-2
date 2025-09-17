@@ -6,7 +6,7 @@ const LockerType = () => {
       <div className="section flex flex-col 1xl:flex-row 1xl:flex-wrap gap-18 1xl:gap-35">
         <div className="3xl:pl-69 4xl:pl-94 flex flex-col gap-[60px] lg:gap-[120px]">
           <div className="lg:grid lg:grid-cols-[1fr_460px] 1xl:grid-cols-[1fr_676px] 3xl:grid-cols-[1fr_760px] 4xl:grid-cols-[864px_844px] lg:gap-x-5 1xl:gap-x-10 lg:items-start 3xl:gap-x-25 4xl:justify-between mr-[23px]">
-            <div className="mb-12 1xl:mb-35 1xl:col-start-1 1xl:row-start-1 mt-[-1px] sm:mt-0">
+            <div className="mb-12 1xl:mb-[100px] 1xl:col-start-1 1xl:row-start-1 mt-[-1px] sm:mt-0">
               <h2 className="mb-6 3xl:mb-17 4xl:mb-15 font-second font-medium text-[32px]/[35px]">
                 Технічні характеристики
               </h2>
