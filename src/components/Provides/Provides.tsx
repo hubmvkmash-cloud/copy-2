@@ -12,7 +12,7 @@ export default function Provides() {
         </div>
         <div className="flex flex-col lg:flex-row lg:flex-wrap">
           {/* Left column: image only */}
-          <div className="flex flex-col lg:w-[48%] 1xl:w-[32%] mr-auto mb-5 lg:mb-0">
+          <div className="flex flex-col lg:w-[48%] 1xl:w-[32%] mr-auto mb-5 lg:mb-0 max-[991px]:mt-auto max-[991px]:mb-auto max-[991px]:mr-0 max-[991px]:ml-0">
             <img
               loading="lazy"
               src="https://cdn.builder.io/api/v1/image/assets%2F72ae2a4d99034a3aa7809f652e4e761b%2F2eed2cabd7bb4c308d76431764a8bf3a"
