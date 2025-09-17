@@ -12,8 +12,8 @@ const LockerType = () => {
               </h2>
             </div>
 
-            <div className="flex flex-row-reverse items-center gap-5 justify-between">
-              <div className="xs:max-w-[520px] xs:aspect-[520/352] mb-12 lg:max-w-[460px] 1xl:mb-0 1xl:max-w-[674px] ml-auto 3xl:max-w-[760px] 3xl:aspect-[760/552] 4xl:max-w-[844px] max-[991px]:flex max-[991px]:flex-col max-[991px]:items-center max-[991px]:justify-center">
+            <div className="flex flex-row-reverse items-center gap-5 justify-between max-[640px]:flex-col">
+              <div className="flex items-center flex-col justify-center aspect-[520/352] max-w-[520px] mb-12 ml-auto">
                 <img
                   alt="picture"
                   src="https://cdn.builder.io/api/v1/image/assets%2F72ae2a4d99034a3aa7809f652e4e761b%2F5e0a6aaf1b4f456c88f462786d1be943"
