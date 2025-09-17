@@ -1,23 +1,23 @@
 export default function Provides() {
   return (
     <section id="provides" className="pb-40 1xl:pb-[220px] 3xl:pb-[220px] 4xl:pb-[220px]">
-      <div className="section flex flex-col lg:flex-row lg:flex-wrap">
-          {/* Left column: background title block */}
-        <div className="flex flex-col lg:w-[48%] 1xl:w-[32%] mr-auto mb-5 lg:mb-0">
-            <h2 className="font-second font-medium text-center mr-auto mb-[40px]">
-              Як це працює?
-            </h2>
-            <img
-              loading="lazy"
-              src="https://cdn.builder.io/api/v1/image/assets%2F72ae2a4d99034a3aa7809f652e4e761b%2F2eed2cabd7bb4c308d76431764a8bf3a"
-              className="w-full self-stretch object-contain"
-              alt="Як це працює"
-            />
+      <div className="section flex flex-col">
+          <div className="flex flex-col mt-5 mb-10">
+            <h2 className="font-second font-medium text-center mr-auto">Як це працює?</h2>
           </div>
+          <div className="flex flex-col lg:flex-row lg:flex-wrap">
+            {/* Left column: image only */}
+            <div className="flex flex-col lg:w-[48%] 1xl:w-[32%] mr-auto mb-5 lg:mb-0">
+              <img
+                loading="lazy"
+                src="https://cdn.builder.io/api/v1/image/assets%2F72ae2a4d99034a3aa7809f652e4e761b%2F2eed2cabd7bb4c308d76431764a8bf3a"
+                className="w-full self-stretch object-contain"
+                alt="Як це працює"
+              />
+            </div>
 
-          {/* Right column: content lists */}
-
-        <div className="flex flex-col 1xl:flex-row 1xl:flex-wrap mr-auto lg:w-[48%] 1xl:w-[65%]">
+            {/* Right column: content lists */}
+            <div className="flex flex-col 1xl:flex-row 1xl:flex-wrap mr-auto lg:w-[48%] 1xl:w-[65%]">
               <ul className="flex flex-wrap text-boulder-dust text-[20px]/[22px] gap-y-[54px] gap-x-1.5 mb-[54px] max-[991px]:flex-col max-[991px]:items-stretch 1xl:flex-row">
                 <li className="tracking-[0.02em] 3xl:tracking-[0.07em] 1xl:tracking-normal lg:max-w-114 1xl:max-w-[49%] 3xl:max-w-[49%] 4xl:max-w-[49%]">Флоромат (квіткомат) - обладнання для продажу авторських квіткових композицій та сувенірів.</li>
                 <li className="tracking-[0.02em] 3xl:tracking-[0.07em] 1xl:tracking-normal lg:max-w-114 1xl:max-w-[49%] 3xl:max-w-[49%] 4xl:max-w-[49%]">Таке обладнання забезпечує автономну реалізацію квітів без участі продавців.</li>
@@ -41,7 +41,7 @@ export default function Provides() {
                   <span className="flex justify-start lg:justify-center items-center w-16 h-16 rounded-full bg-woodsmoke-dark shrink-0">
                     <img src="/images/icons-png/flowers.png" alt="Іконка" className="max-w-[34px] mx-auto lg:mx-0" />
                   </span>
-                  <div className="lg:mr-0 mr-[-1px] sm:pt-0 pt-5"><p>Автоматизація процесу та диcтанційне керування через мобільний додаток</p></div>
+                  <div className="lg:mr-0 mr-[-1px] sm:pt-0 pt-5"><div>Автоматизація процесу та диcтанційне керування через мобільний додаток</div></div>
                 </li>
                 <li className="flex gap-6 h-16 items-center max-w-[456px] w-full 1xl:max-w-[49%] 1xl:w-auto">
                   <span className="flex justify-start lg:justify-center items-center w-16 h-16 rounded-full bg-woodsmoke-dark shrink-0">
@@ -57,6 +57,7 @@ export default function Provides() {
                 </li>
               </ul>
             </div>
+          </div>
       </div>
     </section>
   );
