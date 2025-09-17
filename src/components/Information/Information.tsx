@@ -2,20 +2,23 @@ import { information } from '../../data/information';
 
 const Information = () => {
   return (
-    <section id="information" className="pb-40 1xl:pb-[220px] 3xl:pb-60 4xl:pb-70">
+    <section
+      id="information"
+      className="pb-40 1xl:pb-[220px] 3xl:pb-60 4xl:pb-70"
+    >
       <div className="section flex flex-col">
         <div className="mb-9 1xl:mb-[64px] 3xl:mb-17 4xl:mb-15 flex items-center justify-between">
           <h2 className="font-second font-medium text-[32px]/[35px]">
             Метрики та фінанcові показники
           </h2>
-          <img
-            src="/images/info.png"
-            alt="Стрілка"
-            className="w-5 h-5"
-          />
+          <img src="/images/info.png" alt="Стрілка" className="w-5 h-5" />
         </div>
 
-        <div className="flex items-center justify-between ml-auto lg:w-[33%]"><div className="relative text-right lg:text-center text-[18px] mx-auto">Середні показники/ місяць</div></div>
+        <div className="flex items-center justify-between ml-auto lg:w-[33%]">
+          <div className="relative text-right lg:text-center text-[18px] mx-auto">
+            Середні показники/ місяць
+          </div>
+        </div>
 
         <ul className="flex flex-col gap-[26px]">
           {information.map((info, index) => {
@@ -37,7 +40,19 @@ const Information = () => {
                 </div>
                 <div className="flex justify-between text-[24px]/[21px] text-boulder-dust font-medium min-w-[240px] max-[991px]:min-w-[340px] lg:min-w-[33%] shrink-0">
                   <p>{info.price}</p>
-                  <p className={(['ml-[23px]','ml-[22px]','ml-[26px]','ml-[26px]','ml-[28px]'][index] ?? '')}>{info.duration}</p>
+                  <p
+                    className={
+                      [
+                        'ml-[23px]',
+                        'ml-[22px]',
+                        'ml-[26px]',
+                        'ml-[26px]',
+                        'ml-[28px]',
+                      ][index] ?? ''
+                    }
+                  >
+                    {info.duration}
+                  </p>
                 </div>
               </li>
             );
