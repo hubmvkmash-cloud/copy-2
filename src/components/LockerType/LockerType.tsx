@@ -12,7 +12,7 @@ const LockerType = () => {
               </h2>
             </div>
 
-            <div className="flex flex-row-reverse items-center gap-6 justify-between max-[1023px]:flex-col max-[1439px]:items-start">
+            <div className="flex flex-row-reverse items-center gap-10 justify-between max-[1023px]:flex-col max-[1439px]:items-start">
               <div className="flex items-center justify-center aspect-[520/352] max-w-[520px]">
                 <img
                   alt="picture"
