@@ -1,6 +1,9 @@
 import { lockers } from '../../data/lockers';
+import { useState } from 'react';
+import Modal from '../ui/Modal/Modal';
 
 const LockerType = () => {
+  const [isImageOpen, setIsImageOpen] = useState(false);
   return (
     <section id="locker" className="pb-40 1xl:pb-55 3xl:pb-60 4xl:pb-70">
       <div className="section flex flex-col 1xl:flex-row 1xl:flex-wrap gap-18 1xl:gap-35">
@@ -16,6 +19,7 @@ const LockerType = () => {
               <button
                 type="button"
                 className="flex items-center justify-center w-full max-[1023px]:aspect-[520/352] max-[1023px]:max-w-[520px] aspect-[620/452] max-w-[620px]"
+                onClick={() => setIsImageOpen(true)}
               >
                 <img
                   alt="picture"
@@ -69,6 +73,16 @@ const LockerType = () => {
           </div>
         </div>
       </div>
+      <Modal isOpen={isImageOpen} onClose={() => setIsImageOpen(false)}>
+        <div className="mx-auto w-full max-w-[340px] min-[375px]:max-w-[360px] min-[568px]:max-w-[520px] lg:max-w-[620px] min-[1440px]:max-w-[760px] min-[1920px]:max-w-[844px] min-[2560px]:max-w-[1024px]">
+          <img
+            alt="picture"
+            src="https://cdn.builder.io/api/v1/image/assets%2F72ae2a4d99034a3aa7809f652e4e761b%2F5e0a6aaf1b4f456c88f462786d1be943"
+            className="block w-full h-auto object-contain max-h-[calc(100vh-6rem)] min-[375px]:max-h-[calc(100vh-7rem)] min-[568px]:max-h-[calc(100vh-8rem)] lg:max-h-[calc(100vh-10rem)] min-[1440px]:max-h-[calc(100vh-12rem)] min-[1920px]:max-h-[calc(100vh-14rem)] min-[2560px]:max-h-[calc(100vh-16rem)]"
+            loading="lazy"
+          />
+        </div>
+      </Modal>
     </section>
   );
 };
