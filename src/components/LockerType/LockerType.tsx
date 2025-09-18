@@ -7,7 +7,7 @@ const LockerType = () => {
         <div className="3xl:pl-69 4xl:pl-94 flex flex-col gap-[60px] lg:gap-[60px]">
           <div className="flex flex-col gap-10">
             <div className="">
-              <h2 className="mb-[68px] text-left font-second font-medium">
+              <h2 className="mb-8 xs:mb-12 lg:mb-26.5 text-center lg:text-left font-second font-medium">
                 Технічні характеристики
               </h2>
             </div>
