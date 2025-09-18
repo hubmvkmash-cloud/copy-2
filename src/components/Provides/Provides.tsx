@@ -6,7 +6,7 @@ export default function Provides() {
     >
       <div className="section flex flex-col">
         <div className="flex flex-col mb-10">
-          <h2 className="font-second font-medium">
+          <h2 className="font-second font-medium text-center lg:text-left ">
             Як це працює?
           </h2>
         </div>
