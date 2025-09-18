@@ -23,7 +23,7 @@ export default function Provides() {
 
           {/* Right column: content lists */}
           <div className="flex flex-col 1xl:flex-row 1xl:flex-wrap mr-auto lg:w-[48%] 1xl:w-[65%]">
-            <ul className="flex flex-wrap text-boulder-dust text-[20px]/[22px] gap-y-[48px] gap-x-1.5 mb-[48px] max-[991px]:flex-col max-[991px]:items-stretch 1xl:flex-row">
+            <ul className="flex flex-wrap text-boulder-dust text-[20px]/[22px] gap-y-[42px] gap-x-1.5 mb-[42px] max-[991px]:flex-col max-[991px]:items-stretch 1xl:flex-row">
               <li className="tracking-[0.02em] 3xl:tracking-[0.07em] 1xl:tracking-normal lg:max-w-114 1xl:max-w-[49%] 3xl:max-w-[49%] 4xl:max-w-[49%]">
                 Флоромат (квіткомат) - обладнання для продажу авторських
                 квіткових композицій та сувенірів.
