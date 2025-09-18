@@ -18,7 +18,7 @@ const LockerType = () => {
             <div className="flex flex-row-reverse items-center justify-between max-[1023px]:flex-col max-[991px]:items-start">
               <button
                 type="button"
-                className="flex items-center justify-center w-full max-[1439px]:aspect-[520/352] max-[1439px]:max-w-[520px] aspect-[620/452] max-w-[620px] hover:scale-105 transition-transform duration-300 ease-in-out"
+                className="max-[1023px]:mb-10 flex items-center justify-center w-full max-[1439px]:aspect-[520/352] max-[1439px]:max-w-[520px] aspect-[620/452] max-w-[620px] hover:scale-105 transition-transform duration-300 ease-in-out"
                 onClick={() => setIsImageOpen(true)}
               >
                 <img
