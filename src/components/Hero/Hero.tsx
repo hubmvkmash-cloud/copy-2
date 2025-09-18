@@ -23,7 +23,7 @@ const Hero = () => {
           {/* Контент поверх відео */}
 
           <div className="section flex flex-col justify-center lg:justify-center lg:items-center h-full mx-auto pt-12 1xl:pt-0 ">
-            <div className="lg:flex flex-col items-center lg:mb-12 4xl:mb-8.5">
+            <div className="lg:flex flex-col items-center lg:mb-17 4xl:mb-8.5">
               <h1 className="font-second mb-5.5 1xl:mb-3.5 font-medium text-gallery-white">
                 <span className="text-tangerine block text-center">Збільши прибуток</span>
                 <span className="block self-center font-medium text-center sm:text-inherit">свого квіткового бізнесу</span>
@@ -39,7 +39,7 @@ const Hero = () => {
             <SmartButton
               label="Рішення для бізнесу"
               href="#provides"
-              className="4xl:text-[20px]/[1] mt-[20px] lg:mt-[3px] pt-[11px] pb-[13px] mx-auto sm:ml-auto"
+              className="4xl:text-[20px]/[1] lg:mt-[3px] pt-[11px] pb-[13px] mx-auto sm:ml-auto"
               labelClassName="pt-[2px] mx-auto sm:mx-0"
             />
           </div>
