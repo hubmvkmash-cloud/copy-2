@@ -5,7 +5,7 @@ const LockerType = () => {
     <section id="locker" className="pb-40 1xl:pb-55 3xl:pb-60 4xl:pb-70">
       <div className="section flex flex-col 1xl:flex-row 1xl:flex-wrap gap-18 1xl:gap-35">
         <div className="3xl:pl-69 4xl:pl-94 flex flex-col gap-[60px] lg:gap-[60px]">
-          <div className="flex flex-col gap-10">
+          <div className="flex flex-col">
             <div className="">
               <h2 className="mb-14.5 1xl:mb-17 4xl:mb-15 text-center lg:text-left font-second font-medium">
                 Технічні характеристики
