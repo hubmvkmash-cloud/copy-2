@@ -5,14 +5,14 @@ export default function Provides() {
       className="pb-40 1xl:pb-[220px] 3xl:pb-[220px] 4xl:pb-[220px]"
     >
       <div className="section flex flex-col">
-        <div className="flex flex-col mt-5 mb-10">
+        <div className="flex flex-col mb-10">
           <h2 className="font-second font-medium text-center mr-auto">
             Як це працює?
           </h2>
         </div>
         <div className="flex flex-col lg:flex-row lg:flex-wrap">
           {/* Left column: image only */}
-          <div className="flex flex-col lg:w-[48%] 1xl:w-[32%] mr-auto mb-5 lg:mb-0 max-[991px]:mt-auto max-[991px]:mb-auto max-[991px]:mr-0 max-[991px]:ml-0 max-[991px]:items-center max-[991px]:justify-center">
+          <div className="flex flex-col lg:w-[48%] 1xl:w-[32%] mr-auto mb-5 max-[991px]:mt-auto max-[991px]:mb-6 mb-0 mr-0 ml-0 items-center justify-center">
             <img
               loading="lazy"
               src="https://cdn.builder.io/api/v1/image/assets%2F72ae2a4d99034a3aa7809f652e4e761b%2F2eed2cabd7bb4c308d76431764a8bf3a"
