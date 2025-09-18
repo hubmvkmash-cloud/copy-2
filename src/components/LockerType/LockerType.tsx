@@ -15,7 +15,7 @@ const LockerType = () => {
             <div className="flex flex-row-reverse items-center gap-10 justify-between max-[1023px]:flex-col max-[991px]:items-start">
               <button
                 type="button"
-                className="flex items-center justify-center w-full aspect-[520/352] max-w-[520px]"
+                className="flex items-center justify-center w-full max-[1023px]:aspect-[520/352] max-[1023px]:max-w-[520px] aspect-[620/452] max-w-[620px]"
               >
                 <img
                   alt="picture"
