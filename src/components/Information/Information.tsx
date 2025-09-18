@@ -8,7 +8,7 @@ const Information = () => {
     >
       <div className="section flex flex-col">
         <div className="mb-9 1xl:mb-[64px] 3xl:mb-17 4xl:mb-15 flex items-center justify-between">
-          <h2 className="font-second font-medium text-[32px]/[35px]">
+          <h2 className="font-second font-medium">
             Метрики та фінанcові показники
           </h2>
           <img src="/images/info.png" alt="Стрілка" className="w-5 h-5" />
