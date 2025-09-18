@@ -23,12 +23,12 @@ const Hero = () => {
           {/* Контент поверх відео */}
 
           <div className="section flex flex-col justify-center lg:justify-center lg:items-center h-full mx-auto pt-12 1xl:pt-0 ">
-            <div className="lg:flex flex-col items-center lg:mb-17 4xl:mb-8.5">
+            <div className="lg:flex flex-col items-center mb-9 lg:mb-17 4xl:mb-8.5">
               <h1 className="font-second mb-5.5 1xl:mb-3.5 font-medium text-gallery-white">
                 <span className="text-tangerine block text-center">Збільши прибуток</span>
                 <span className="block self-center font-medium text-center sm:text-inherit">свого квіткового бізнесу</span>
               </h1>
-              <p className="text-[18px]/[22px] font-normal text-alto-white max-w-[631px] lg:max-w-[500px] text-center mb-[34px] sm:mb-0">
+              <p className="text-[18px]/[22px] font-normal text-alto-white max-w-[631px] lg:max-w-[500px] text-center sm:mb-0">
                 <span className="xs:text-[20px]">У тебе є квітковий магазин або мрієш почати?</span>
                 <br />
                 <br />
