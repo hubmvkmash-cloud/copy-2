@@ -25,7 +25,7 @@ const Hero = () => {
           <div className="section flex flex-col justify-center lg:justify-center lg:items-center h-full mx-auto">
             <div className="lg:flex flex-col items-center lg:mb-12 4xl:mb-8.5 mt-[-1px] sm:mt-0 pb-[43px] sm:pb-0">
               <h1 className="mt-25 1xl:mt-0 font-second mb-5.5 1xl:mb-3.5 font-medium text-gallery-white">
-                <span className="text-tangerine block text-center mt-[200px]">Збільши прибуток</span>
+                <span className="text-tangerine block text-center">Збільши прибуток</span>
                 <span className="block self-center font-medium text-center sm:text-inherit">свого квіткового бізнесу</span>
               </h1>
               <p className="text-[18px]/[22px] font-normal text-alto-white max-w-[631px] lg:max-w-[500px] text-center mb-[34px] sm:mb-0">
