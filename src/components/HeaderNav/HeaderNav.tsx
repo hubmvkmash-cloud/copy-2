@@ -13,7 +13,7 @@ export default function HeaderNav() {
           </li>
           <li className="inline-block hover:text-gallery-white transition-colors">
             <a href="#information" className="py-3 1xl:py-3.5 4xl:py-4.5">
-              Інформація
+              Інфоррмація
             </a>
           </li>
           <li className="inline-block hover:text-gallery-white transition-colors">
