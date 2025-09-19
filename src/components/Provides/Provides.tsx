@@ -1,6 +1,6 @@
 export default function Provides() {
   return (
-    <section id="provides" className="pb-40 1xl:pb-55 3xl:pb-60 4xl:pb-70">
+    <section id="provides" className="pb-[133px]">
       <div className="section flex flex-col">
         <div className="mb-10">
           <h2 className="text-left font-second font-medium leading-[138%] 1xl:text-[42px]/[138%]">
@@ -29,7 +29,7 @@ export default function Provides() {
                 логістику.
               </li>
               <li className="max-w-[49%] w-full lg:w-[49%]">
-                Саме тому ми пропонуємо реальні кейси як вирішити ці
+                Саме тому ми пропонуємо ��еальні кейси як вирішити ці
                 питання
               </li>
             </ul>
@@ -77,7 +77,7 @@ export default function Provides() {
                     className="max-w-8.5"
                   />
                 </span>
-                <p>Послуга "Під ключ"</p>
+                <p>Перелік кращій локацій</p>
               </li>
             </ul>
           </div>
