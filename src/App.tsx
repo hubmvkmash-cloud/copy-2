@@ -32,8 +32,8 @@ function App() {
       ) : (
         <main>
           <Hero />
-          <Provides />
           <LockerType />
+          <Provides />
           <MoreInfo />
         </main>
       )}
