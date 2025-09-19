@@ -14,7 +14,7 @@ export default function Provides() {
             <img
               loading="lazy"
               alt="Як це працює"
-              src="https://cdn.builder.io/api/v1/image/assets%2F72ae2a4d99034a3aa7809f652e4e761b%2F2eed2cabd7bb4c308d76431764a8bf3a"
+              src="https://cdn.builder.io/api/v1/image/assets%2F72ae2a4d99034a3aa7809f652e4e761b%2Fd5a0a1a7b2954541b532325e8a01dcce"
               className="w-full object-contain"
             />
           </div>
@@ -23,7 +23,7 @@ export default function Provides() {
           <div className="w-full 1xl:w-[65%] 1xl:max-w-[65%] mr-auto">
             {/* Intro bullets */}
             <ul className="flex flex-wrap gap-x-1.5 gap-y-10 text-boulder-dust text-[20px]/[110%] mb-10">
-              <li className="max-w-[49%] w-full lg:w-[49%]">
+              <li className="max-w-[49%] w-full lg:w-[49%] pr-[29px]">
                 Флоромат (квіткомат) - обладнання для продажу авторських
                 квіткових композицій та сувенірів.
               </li>
@@ -70,8 +70,7 @@ export default function Provides() {
                   />
                 </span>
                 <p>
-                  Автоматизація процесу та диcтанційне керування через мобільний
-                  додаток
+                  Рекомендації формату та ціноутворення квіткових композицій
                 </p>
               </li>
 
@@ -83,7 +82,7 @@ export default function Provides() {
                     className="max-w-8.5"
                   />
                 </span>
-                <p>Найкраща локація з найбільшим пішим трафіком</p>
+                <p>Логістика: оптимізація витрат та часу</p>
               </li>
 
               <li className="flex items-center gap-6 h-16 max-w-[49%] w-full lg:w-[49%]">
@@ -94,9 +93,7 @@ export default function Provides() {
                     className="max-w-8.5"
                   />
                 </span>
-                <p>
-                  Безпечна конструкція із системою сигналізації та відоспостереження
-                </p>
+                <p>Послуга "Під ключ"</p>
               </li>
             </ul>
           </div>
