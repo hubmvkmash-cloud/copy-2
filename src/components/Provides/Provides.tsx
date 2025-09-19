@@ -61,7 +61,7 @@ export default function Provides() {
                   className="max-w-6.5 xs:max-w-8.5"
                 />
               </span>
-              <p>Логістика: пункт передачі посилок</p>
+              <p>Логістика: пункт передачі п��силок</p>
             </li>
             <li className="flex gap-6 lg:gap-4 h-16 items-center w-full lg:w-[452px] 1xl:w-[440px] 3xl:w-[544px] 4xl:w-[732px]">
               <span className="flex justify-center items-center w-16 h-16 rounded-full bg-woodsmoke-dark shrink-0">
@@ -91,7 +91,7 @@ export default function Provides() {
                   className="max-w-6.5 xs:max-w-8.5"
                 />
               </span>
-              <p>Швидкі побутові послуги</p>
+              <p className="font-bold">Швидкі побутові послуги</p>
             </li>
           </ul>
         </div>
