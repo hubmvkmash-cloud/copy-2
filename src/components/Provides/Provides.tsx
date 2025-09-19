@@ -8,7 +8,7 @@ export default function Provides() {
           </h2>
         </div>
 
-        <div className="flex flex-wrap w-full gap-10 1xl:gap-12 items-start">
+        <div className="flex w-full gap-12 flex-row">
           {/* Left image */}
           <div className="w-full 1xl:w-[32%] 1xl:max-w-[32%] 1xl:mr-auto mb-5">
             <img
@@ -32,7 +32,7 @@ export default function Provides() {
                 участі продавців.
               </li>
               <li className="max-w-[49%] w-full lg:w-[49%]">
-                Ми надаємо місце та обладнання. Ви контролюєте реалізацію та
+                Ми надаємо місце та обладнання. Ви кон��ролюєте реалізацію та
                 прибуток.
               </li>
             </ul>
