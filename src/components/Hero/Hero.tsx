@@ -34,7 +34,8 @@ const Hero = () => {
                 </span>
                 <div className="lg:flex flex-col items-center lg:mb-12 4xl:mb-8.5 mb-12 mt-5">
                   <p className="text-[18px]/[22px] font-normal text-alto-white max-w-125 text-center mb-[34px] sm:mb-0 mx-auto">
-                    Наші Флоромати - це 24/7 продажі, мінімум витрат та лідерство в галузі.
+                    Наші Флоромати - це 24/7 продажі, мінімум витрат та
+                    лідерство в галузі.
                   </p>
                 </div>
               </div>
