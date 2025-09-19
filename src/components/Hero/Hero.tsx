@@ -24,13 +24,20 @@ const Hero = () => {
 
           <div className="section flex flex-col justify-around lg:justify-center lg:items-center h-full">
             <div className="lg:flex flex-col items-center lg:mb-12 4xl:mb-8.5">
-              <h1 className="mt-25 1xl:mt-0 font-second text-[34px]/[1] mb-5.5 1xl:mb-3.5  1xl:text-[64px]/[1] 3xl:text-[82px]/[1] 4xl:text-[94px]/[1] font-medium text-gallery-white">
-                <span className="text-tangerine">Smart</span> Locker HUB
+              <h1 className="mt-25 1xl:mt-0 font-second text-[34px]/[1] mb-5.5 1xl:mb-3.5  1xl:text-[64px]/[1] 3xl:text-[82px]/[1] 4xl:text-[94px]/[1] font-medium text-gallery-white flex flex-col items-center">
+                <span className="text-tangerine mx-auto">Збільши прибуток</span>
+                <span className="mt-5">свого квіткового бізнесу</span>
               </h1>
-              <p className="text-base/[137%] xs:text-[18px]/[122%] 4xl:text-[22px] font-normal text-alto-white max-w-69 lg:max-w-125 text-left lg:text-center">
-                Реалізація комплекса послуг та задоволення потреб населення в
-                одному рішенні
-              </p>
+              <div className="text-alto-white text-center w-full">
+                <span className="text-[20px] block">
+                  У тебе є квітковий магазин або мрієш почати?
+                </span>
+                <div className="lg:flex flex-col items-center lg:mb-12 4xl:mb-8.5 mb-12">
+                  <p className="text-[18px]/[22px] font-normal text-alto-white max-w-125 text-center mb-[34px] sm:mb-0 mx-auto">
+                    Наші Флоромати - це 24/7 продажі, мінімум витрат та лідерство в галузі.
+                  </p>
+                </div>
+              </div>
             </div>
 
             <SmartButton
@@ -39,7 +46,7 @@ const Hero = () => {
               iconClassName="w-4.5 h-4.5 ml-16"
               iconStroke="currentColor"
               iconPosition="right"
-              href="#provides"
+              href="https://7dd4ab0b020240d4892775eeccdad6ca-a0d50c89-7946-41f6-b678-5f6d0f.fly.dev/?reload=1758288298161#provides"
               className="lg:inline-flex ml-auto lg:ml-0 4xl:text-[20px]/[1]"
             />
           </div>
