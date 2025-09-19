@@ -26,7 +26,7 @@ export default function Provides() {
             <ul className="flex flex-wrap text-boulder-dust text-[20px]/[22px] gap-y-[42px] gap-x-2 mb-[42px] max-[991px]:flex-col max-[991px]:items-stretch 1xl:flex-row">
               <li className="tracking-[0.02em] 3xl:tracking-[0.07em] 1xl:tracking-normal lg:max-w-114 1xl:w-[49%]">
                 Флоромат (квіткомат) - обладнання для продажу авторських
-                квіткових компози��ій та сувенірів.
+                квіткових композицій та сувенірів.
               </li>
               <li className="tracking-[0.02em] 3xl:tracking-[0.07em] 1xl:tracking-normal lg:max-w-114 1xl:w-[49%]">
                 Таке обладнання забезпечує автономну реалізацію квітів без
