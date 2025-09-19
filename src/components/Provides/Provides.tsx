@@ -10,9 +10,9 @@ export default function Provides() {
             Як це працює?
           </h2>
         </div>
-        <div className="flex flex-col lg:flex-row lg:flex-wrap">
+        <div className="flex flex-col lg:flex-row lg:flex-wrap gap-6">
           {/* Left column: image only */}
-          <div className="flex flex-col lg:w-[48%] 1xl:w-[32%] mr-auto mb-5 max-[991px]:mt-auto max-[991px]:mb-6 mb-0 mr-0 ml-0 max-[991px]:items-center max-[991px]:justify-center">
+          <div className="flex flex-col lg:w-[48%] 1xl:w-[32%] max-[1023px]:items-center max-[1023px]:justify-center">
             <img
               loading="lazy"
               src="https://cdn.builder.io/api/v1/image/assets%2F72ae2a4d99034a3aa7809f652e4e761b%2F2eed2cabd7bb4c308d76431764a8bf3a"
@@ -24,22 +24,22 @@ export default function Provides() {
           {/* Right column: content lists */}
           <div className="flex flex-col 1xl:flex-row 1xl:flex-wrap mr-auto lg:w-[48%] 1xl:w-[65%]">
             <ul className="flex flex-wrap text-boulder-dust text-[20px]/[22px] gap-y-[42px] gap-x-1.5 mb-[42px] max-[991px]:flex-col max-[991px]:items-stretch 1xl:flex-row">
-              <li className="tracking-[0.02em] 3xl:tracking-[0.07em] 1xl:tracking-normal lg:max-w-114 1xl:max-w-[49%] 3xl:max-w-[49%] 4xl:max-w-[49%]">
+              <li className="tracking-[0.02em] 3xl:tracking-[0.07em] 1xl:tracking-normal lg:max-w-114 1xl:w-[49%]">
                 Флоромат (квіткомат) - обладнання для продажу авторських
                 квіткових композицій та сувенірів.
               </li>
-              <li className="tracking-[0.02em] 3xl:tracking-[0.07em] 1xl:tracking-normal lg:max-w-114 1xl:max-w-[49%] 3xl:max-w-[49%] 4xl:max-w-[49%]">
+              <li className="tracking-[0.02em] 3xl:tracking-[0.07em] 1xl:tracking-normal lg:max-w-114 1xl:w-[49%]">
                 Таке обладнання забезпечує автономну реалізацію квітів без
                 участі продавців.
               </li>
-              <li className="tracking-[0.02em] 3xl:tracking-[0.07em] 1xl:tracking-normal lg:max-w-114 1xl:max-w-[49%] 3xl:max-w-[49%] 4xl:max-w-[49%]">
+              <li className="tracking-[0.02em] 3xl:tracking-[0.07em] 1xl:tracking-normal lg:max-w-114 1xl:w-[49%]">
                 Ми надаємо місце та обладнання. Ви контролюєте реалізацію та
                 прибуток.
               </li>
             </ul>
 
             <ul className="flex flex-wrap text-[18px]/[28px] font-semibold gap-y-[42px] gap-x-1.5 1xl:flex-row">
-              <li className="flex gap-6 h-16 items-center max-w-[456px] w-full 1xl:max-w-[49%] 1xl:w-auto">
+              <li className="flex gap-6 items-center max-w-[456px] w-full 1xl:w-[49%]">
                 <span className="flex justify-start lg:justify-center items-center w-16 h-16 rounded-full bg-woodsmoke-dark shrink-0">
                   <img
                     src="/images/icons-png/cleaning.png"
@@ -51,7 +51,7 @@ export default function Provides() {
                   Цілодобові продажі 24 години на добу, 7 днів на тиждень
                 </div>
               </li>
-              <li className="flex gap-6 h-16 items-center max-w-[456px] w-full 1xl:max-w-[49%] 1xl:w-auto">
+              <li className="flex gap-6 items-center max-w-[456px] w-full 1xl:w-[49%]">
                 <span className="flex justify-start lg:justify-center items-center w-16 h-16 rounded-full bg-woodsmoke-dark shrink-0">
                   <img
                     src="/images/icons-png/health.png"
@@ -63,7 +63,7 @@ export default function Provides() {
                   Швидка окупність інвестицій до двох років
                 </div>
               </li>
-              <li className="flex gap-6 h-16 items-center max-w-[456px] w-full 1xl:max-w-[49%] 1xl:w-auto">
+              <li className="flex gap-6 items-center max-w-[456px] w-full 1xl:w-[49%]">
                 <span className="flex justify-start lg:justify-center items-center w-16 h-16 rounded-full bg-woodsmoke-dark shrink-0">
                   <img
                     src="/images/icons-png/flowers.png"
@@ -78,7 +78,7 @@ export default function Provides() {
                   </div>
                 </div>
               </li>
-              <li className="flex gap-6 h-16 items-center max-w-[456px] w-full 1xl:max-w-[49%] 1xl:w-auto">
+              <li className="flex gap-6 items-center max-w-[456px] w-full 1xl:w-[49%]">
                 <span className="flex justify-start lg:justify-center items-center w-16 h-16 rounded-full bg-woodsmoke-dark shrink-0">
                   <img
                     src="/images/icons-png/cargo.png"
@@ -90,7 +90,7 @@ export default function Provides() {
                   Найкраща локація з найбільшим пішим трафіком
                 </div>
               </li>
-              <li className="flex gap-6 h-16 items-center max-w-[456px] w-full 1xl:max-w-[49%] 1xl:w-auto">
+              <li className="flex gap-6 items-center max-w-[456px] w-full 1xl:w-[49%]">
                 <span className="flex justify-start lg:justify-center items-center w-16 h-16 rounded-full bg-woodsmoke-dark shrink-0">
                   <img
                     src="/images/icons-png/secure.png"
