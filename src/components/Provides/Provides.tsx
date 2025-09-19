@@ -23,10 +23,10 @@ export default function Provides() {
 
           {/* Right column: content lists */}
           <div className="flex flex-col 1xl:flex-row 1xl:flex-wrap mr-auto lg:w-[48%] 1xl:w-[65%]">
-            <ul className="flex flex-wrap text-boulder-dust text-[20px]/[22px] gap-y-[42px] gap-x-1.5 mb-[42px] max-[991px]:flex-col max-[991px]:items-stretch 1xl:flex-row">
+            <ul className="flex flex-wrap text-boulder-dust text-[20px]/[22px] gap-y-[42px] gap-x-2 mb-[42px] max-[991px]:flex-col max-[991px]:items-stretch 1xl:flex-row">
               <li className="tracking-[0.02em] 3xl:tracking-[0.07em] 1xl:tracking-normal lg:max-w-114 1xl:w-[49%]">
                 Флоромат (квіткомат) - обладнання для продажу авторських
-                квіткових композицій та сувенірів.
+                квіткових компози��ій та сувенірів.
               </li>
               <li className="tracking-[0.02em] 3xl:tracking-[0.07em] 1xl:tracking-normal lg:max-w-114 1xl:w-[49%]">
                 Таке обладнання забезпечує автономну реалізацію квітів без
@@ -38,7 +38,7 @@ export default function Provides() {
               </li>
             </ul>
 
-            <ul className="flex flex-wrap text-[18px]/[28px] font-semibold gap-y-[42px] gap-x-1.5 1xl:flex-row">
+            <ul className="flex flex-wrap text-[18px]/[28px] font-semibold gap-y-[42px] gap-x-2 1xl:flex-row">
               <li className="flex gap-6 items-center max-w-[456px] w-full 1xl:w-[49%]">
                 <span className="flex justify-start lg:justify-center items-center w-16 h-16 rounded-full bg-woodsmoke-dark shrink-0">
                   <img
