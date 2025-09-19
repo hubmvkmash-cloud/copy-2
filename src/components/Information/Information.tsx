@@ -2,27 +2,32 @@ import { information } from '../../data/information';
 
 const Information = () => {
   return (
-    <section id="information" className="pb-40 1xl:pb-55 3xl:pb-60 4xl:pb-70">
+    <section
+      id="information"
+      className="pb-40 1xl:pb-[220px] 3xl:pb-60 4xl:pb-70"
+    >
       <div className="section flex flex-col">
-        <div className="mb-9 1xl:mb-20 3xl:mb-17 4xl:mb-15 flex items-center justify-between">
-          <h2 className="leading-[110%] font-second font-medium">
-            Інформація для клієнта
+        <div className="mb-9 1xl:mb-[64px] 3xl:mb-17 4xl:mb-15 flex items-center justify-between">
+          <h2 className="font-second font-medium">
+            Метрики та фінанcові показники
           </h2>
-          <img
-            src="/images/info.png"
-            alt="Стрілка"
-            className="hidden xs:block w-5 h-5 1xl:w-10 1xl:h-10"
-          />
+          <img src="/images/info.png" alt="Стрілка" className="w-5 h-5" />
         </div>
 
-        <ul className="flex flex-col gap-20 lg:gap-18">
+        <div className="flex items-center justify-between ml-auto 1xl:w-[36%]">
+          <div className="relative text-right lg:text-center text-[18px] mx-auto">
+            Середні показники/ місяць
+          </div>
+        </div>
+
+        <ul className="flex flex-col gap-[26px]">
           {information.map((info, index) => {
             return (
               <li
                 key={index}
-                className="border-t border-tuatara/75 pt-8 flex flex-col gap-10 1xl:gap-25 lg:flex-row 3xl:gap-63 4xl:gap-90 "
+                className="border-t-[2px] border-tuatara/75 pt-8 flex flex-col lg:flex-row max-[1023px]:gap-[32px] gap-[100px]"
               >
-                <p className="text-3xl/[87%] xs:text-4xl/[87%] text-boulder-dust font-medium">
+                <p className="text-[36px]/[31px] text-boulder-dust font-medium">
                   {info.number}
                 </p>
                 <div className="flex flex-col gap-4 lg:w-[604px] 1xl:w-[680px] 3xl:w-[710px] 4xl:w-[768px]">
@@ -33,9 +38,21 @@ const Information = () => {
                     {info.description}
                   </p>
                 </div>
-                <div className="flex justify-between text-2xl/[87%] 1xl:text-[32px]/[87%] text-boulder-dust font-medium lg:min-w-60 1xl:min-w-105 3xl:min-w-126 4xl:min-w-183 shrink-0">
+                <div className="flex justify-between text-[24px]/[21px] text-boulder-dust font-medium min-w-[240px] max-[991px]:min-w-[340px] 1xl:min-w-[33%] shrink-0">
                   <p>{info.price}</p>
-                  <p>{info.duration}</p>
+                  <p
+                    className={
+                      [
+                        'ml-[23px]',
+                        'ml-[22px]',
+                        'ml-[26px]',
+                        'ml-[26px]',
+                        'ml-[28px]',
+                      ][index] ?? ''
+                    }
+                  >
+                    {info.duration}
+                  </p>
                 </div>
               </li>
             );

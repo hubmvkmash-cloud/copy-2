@@ -8,12 +8,12 @@ export default function HeaderNav() {
               href="#reasons"
               className="inline-block py-3 1xl:py-3.5 4xl:py-4.5"
             >
-              Причини
+              Переваги
             </a>
           </li>
           <li className="inline-block hover:text-gallery-white transition-colors">
             <a href="#information" className="py-3 1xl:py-3.5 4xl:py-4.5">
-              Інформація
+              Метрики
             </a>
           </li>
           <li className="inline-block hover:text-gallery-white transition-colors">

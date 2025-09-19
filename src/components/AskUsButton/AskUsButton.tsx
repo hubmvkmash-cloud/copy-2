@@ -29,7 +29,7 @@ const AskUsButton = ({ targetId, className = '' }: AskUsButtonProps) => {
         aria-hidden="true"
         focusable="false"
       >
-        <use href="/images/svg/icons.svg#icon-arrow-down-left" />
+        <use href="/images/svg/icons.svg#icon-arrow-down-left" className="inline origin-top-left stroke-[2px] stroke-gray" />
       </svg>
     </div>
   );
