@@ -4,7 +4,7 @@ export default function Provides() {
       <div className="section flex flex-col">
         <div className="mb-10">
           <h2 className="text-left font-second font-medium leading-[138%] 1xl:text-[42px]/[138%]">
-            Обмежена пропозиція
+            Обмежена ��ропозиція
           </h2>
         </div>
 
@@ -29,7 +29,7 @@ export default function Provides() {
                 логістику.
               </li>
               <li className="max-w-[49%] w-full lg:w-[49%]">
-                Саме тому ми пропонуємо ��еальні кейси як вирішити ці
+                Саме тому ми пропонуємо реальні кейси як вирішити ці
                 питання
               </li>
             </ul>
