@@ -36,7 +36,7 @@ const MoreInfo = () => {
     try {
       await sendFormData(finalData);
 
-      toast.success('Дякуємо! Ми зв’яжемось із Вами найближчим часом.', {
+      toast.success('Дякуємо! Ми зв’яжемось ��з Вами найближчим часом.', {
         icon: <FiCheckCircle color="#f08d34" size={24} />,
       });
 
@@ -52,7 +52,7 @@ const MoreInfo = () => {
             'Дані некоректні. Перевірте правильність заповнення форми.'
           );
         } else if (status === 500) {
-          toast.error('Помилка ��ервера. Спробуйте пізніше.');
+          toast.error('Помилка сервера. Спробуйте пізніше.');
         } else {
           toast.error(
             'Не вдалося надіслати запит. Перевірте підключення до мережі або спробуйте пізніше.'
@@ -71,11 +71,10 @@ const MoreInfo = () => {
           {/* Ліва колонка: заголовок + опис */}
           <div className="flex flex-col mb-6.5 xs:mb-0 lg:mb-9.5 1xl:max-w-[626px] 3xl:max-w-[498px] 4xl:max-w-[680px] 1xl:pt-[34px] 4xl:pt-[6px] justify-start gap-y-1.5 xs:gap-y-3.5 lg:gap-y-4.5 1xl:gap-y-7 3xl:gap-y-11">
             <h2 className="leading-[110%] tracking-[-0.02em] font-medium font-second">
-              Потрібно більше інформації?
+              Бронюй місце
             </h2>
             <p className="text-base/[112%] w-[277px] xs:w-[426px] lg:w-[552px] 1xl:w-[439px] 3xl:w-[477px] xs:text-lg/[133%] lg:text-xl/[120%] 1xl:text-xl/[120%] text-boulder-dust">
-              Отримайте детальну презентацію про компанію та 40+ реалізованих
-              проєктів
+              Отримай детальну консультацію для ефективного початку проєкта.
             </p>
           </div>
 
