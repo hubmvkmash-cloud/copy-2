@@ -29,10 +29,10 @@ const Hero = () => {
                 <span className="mt-5">свого квіткового бізнесу</span>
               </h1>
               <div className="text-alto-white text-center w-full">
-                <span className="text-[20px] block">
+                <span className="text-[20px] leading-[27.4px] block mt-5">
                   У тебе є квітковий магазин або мрієш почати?
                 </span>
-                <div className="lg:flex flex-col items-center lg:mb-12 4xl:mb-8.5 mb-12">
+                <div className="lg:flex flex-col items-center lg:mb-12 4xl:mb-8.5 mb-12 mt-5">
                   <p className="text-[18px]/[22px] font-normal text-alto-white max-w-125 text-center mb-[34px] sm:mb-0 mx-auto">
                     Наші Флоромати - це 24/7 продажі, мінімум витрат та лідерство в галузі.
                   </p>
